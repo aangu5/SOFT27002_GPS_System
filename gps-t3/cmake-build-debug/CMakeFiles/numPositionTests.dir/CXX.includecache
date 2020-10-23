@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../gps-t2/headers/logs.h
+string
+-
+
+/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp
+string
+-
+logs.h
+/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.h
+

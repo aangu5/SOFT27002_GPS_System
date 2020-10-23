@@ -41,6 +41,7 @@ CMakeFiles/Boost_Tests_run.dir/src/gpx-tests.cpp.o: ../src/gpx-tests.cpp
 CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o: ../../gps-analysing_routes/headers/route.h
 CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o: ../../gps-analysing_routes/headers/xml/element.h
 CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o: ../../gps-analysing_routes/headers/xml/parser.h
+CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o: ../../gps-t2/headers/logs.h
 CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o: ../../gps-t2/headers/position.h
 CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o: ../../gps-t2/headers/types.h
 CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o: ../src/gpx-tests/timesVisited(string).cpp
