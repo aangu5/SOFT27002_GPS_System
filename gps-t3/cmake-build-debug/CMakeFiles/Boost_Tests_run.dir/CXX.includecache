@@ -32,6 +32,10 @@ string
 element.h
 ../../gps-analysing_routes/headers/xml/element.h
 
+../../gps-t2/headers/geometry.h
+types.h
+../../gps-t2/headers/types.h
+
 ../../gps-t2/headers/logs.h
 string
 -
@@ -44,13 +48,37 @@ types.h
 
 ../../gps-t2/headers/types.h
 
+/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp
+sstream
+-
+fstream
+-
+iostream
+-
+cassert
+-
+cmath
+-
+algorithm
+-
+iterator
+-
+stdexcept
+-
+geometry.h
+/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/geometry.h
+xml/element.h
+/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.h
+xml/parser.h
+/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.h
+route.h
+/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.h
+
 /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/gpx-tests/timesVisited(string).cpp
 boost/test/unit_test.hpp
 -
 logs.h
 /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/gpx-tests/logs.h
-types.h
-/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/gpx-tests/types.h
 route.h
 /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/gpx-tests/route.h
 

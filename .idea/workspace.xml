@@ -39,9 +39,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Added first test case to timesVisited(string).cpp">
+    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Added one_position_many_visits to test cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" afterDir="false" />
     </list>
     <list id="11b39c49-9185-49ea-b878-41870d36266e" name="DO NOT COMMIT" comment="">
@@ -55,6 +55,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -80,7 +81,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
   </component>
-  <component name="RunManager" selected="Makefile.clean">
+  <component name="RunManager" selected="Boost.Test.one_name_many_positions_and_many_visits">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -92,19 +93,7 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Route_timesVisitedString" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_CLASS="Route_timesVisitedString" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Route_timesVisitedstring" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_CLASS="Route_timesVisitedstring" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="singleton_route" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_CLASS="Route_timesVisitedString" TEST_METHOD="singleton_route" TEST_MODE="SUITE_TEST">
+    <configuration name="one_name_many_positions_and_many_visits" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_CLASS="Route_timesVisitedString" TEST_METHOD="one_name_many_positions_and_many_visits" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -115,25 +104,13 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/gps-t3/cmake-build-debug/Makefile" target="clean" workingDirectory="" arguments="">
-        <envs />
-      </makefile>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Boost.Test.Boost_Tests_run" />
-      <item itemvalue="Boost.Test.Route_timesVisitedString" />
-      <item itemvalue="Boost.Test.Route_timesVisitedstring" />
-      <item itemvalue="Boost.Test.singleton_route" />
-      <item itemvalue="Makefile.clean" />
+      <item itemvalue="Boost.Test.one_name_many_positions_and_many_visits" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Makefile.clean" />
-        <item itemvalue="Boost.Test.singleton_route" />
-        <item itemvalue="Boost.Test.Route_timesVisitedstring" />
-        <item itemvalue="Boost.Test.Route_timesVisitedString" />
+        <item itemvalue="Boost.Test.one_name_many_positions_and_many_visits" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603484178743</updated>
-      <workItem from="1603484179940" duration="4990000" />
+      <workItem from="1603484179940" duration="6389000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Test Suite setup">
       <created>1603485287636</created>
@@ -176,7 +153,49 @@
       <option name="project" value="LOCAL" />
       <updated>1603488862815</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added second test case to timesVisited(string).cpp">
+      <created>1603489378504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603489378504</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated .gitignore">
+      <created>1603489424927</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603489424927</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added position_not_visited to test cases">
+      <created>1603489591889</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603489591889</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added bad_input_string to test cases">
+      <created>1603489980984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603489980984</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added one_name_many_positions to test cases">
+      <created>1603490372860</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603490372860</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added one_position_many_visits to test cases">
+      <created>1603490518539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603490518539</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,33 +228,43 @@
     <MESSAGE value="Initial Test Suite setup" />
     <MESSAGE value="Added CMakeLists.txt and build files" />
     <MESSAGE value="Added first test case to timesVisited(string).cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added first test case to timesVisited(string).cpp" />
+    <MESSAGE value="Added second test case to timesVisited(string).cpp" />
+    <MESSAGE value="Updated .gitignore" />
+    <MESSAGE value="Added position_not_visited to test cases" />
+    <MESSAGE value="Added bad_input_string to test cases" />
+    <MESSAGE value="Added one_name_many_positions to test cases" />
+    <MESSAGE value="Added one_position_many_visits to test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added one_position_many_visits to test cases" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Deployment" timestamp="1603485232586">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Deployment/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603485232586" />
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603490628168">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490628168" />
     <state x="772" y="404" key="Github.ShareDialog" timestamp="1603484207681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="772" y="404" key="Github.ShareDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603484207681" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1603488799879">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1603490622380">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488799879" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1603488799879">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490622380" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1603490622379">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488799879" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1603488799878">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490622379" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1603490622379">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488799878" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1603488799879">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490622379" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1603490622379">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488799879" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490622379" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1603488259308">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -260,10 +289,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="438" key="VCS.ChangelistChooser/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486718305" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603488865132">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603490520286">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488865132" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490520286" />
     <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603485690982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -282,7 +311,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/gps-analysing_routes/src/route.cpp</url>
-          <line>165</line>
+          <line>171</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
