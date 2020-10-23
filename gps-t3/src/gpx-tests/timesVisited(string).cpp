@@ -31,4 +31,13 @@ const bool isFileName = false;
         BOOST_CHECK_EQUAL( route.timesVisited("My Position"), 1 );
     }
 
+    // A simple route with one point and checking the number of times for a position that wasn't visited.
+    BOOST_AUTO_TEST_CASE( position_not_visited )
+    {
+        const std::string gpxData =
+                "<gpx><rte><name>MyRoute</name><rtept lat=\"0\" lon=\"0\"></rtept></rte></gpx>";
+        Route route = Route(gpxData, isFileName);
+        BOOST_CHECK_EQUAL( route.timesVisited("Your Position"), 0 );
+    }
+
 BOOST_AUTO_TEST_SUITE_END()
