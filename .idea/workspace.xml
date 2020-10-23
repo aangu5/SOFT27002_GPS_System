@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -15,23 +18,20 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:github/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:github/dev" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="deliverable3" targetName="Boost_Tests_run" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -39,7 +39,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="" />
+    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Initial Test Suite setup">
+      <change afterPath="$PROJECT_DIR$/gps-t3/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" afterDir="false" />
+    </list>
+    <list id="11b39c49-9185-49ea-b878-41870d36266e" name="DO NOT COMMIT" comment="">
+      <change beforePath="$PROJECT_DIR$/gps-analysing_routes/src/route.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-analysing_routes/src/route.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,10 +54,18 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,22 +80,57 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Boost.Test.Route_timesVisitedstring">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boost_Tests_run" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Route_timesVisitedString" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_CLASS="Route_timesVisitedString" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Route_timesVisitedstring" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_CLASS="Route_timesVisitedstring" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Boost.Test.Boost_Tests_run" />
+      <item itemvalue="Boost.Test.Route_timesVisitedString" />
+      <item itemvalue="Boost.Test.Route_timesVisitedstring" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Boost.Test.Route_timesVisitedstring" />
+        <item itemvalue="Boost.Test.Route_timesVisitedString" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="" />
+      <changelist id="11b39c49-9185-49ea-b878-41870d36266e" name="DO NOT COMMIT" comment="" />
       <created>1603484178743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603484178743</updated>
-      <workItem from="1603484179940" duration="1443000" />
+      <workItem from="1603484179940" duration="2618000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Test Suite setup">
       <created>1603485287636</created>
@@ -90,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603485287636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Test Suite setup">
+      <created>1603485734704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603485734704</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +163,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="github/master" />
+                        <option value="github/dev" />
                       </list>
                     </value>
                   </entry>
@@ -132,13 +188,41 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="772" y="404" key="Github.ShareDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603484207681" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603485487334">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1603486810689">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603485487334" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603485223328">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486810689" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1603486810689">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603485223328" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486810689" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1603486810688">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486810688" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1603486810689">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486810689" />
+    <state x="807" y="438" key="VCS.ChangelistChooser" timestamp="1603486718305">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="807" y="438" key="VCS.ChangelistChooser/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486718305" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603485738595">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603485738595" />
+    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603485690982">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603485690982" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1603486115278">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486115278" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603485672257">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603485672257" />
   </component>
 </project>
