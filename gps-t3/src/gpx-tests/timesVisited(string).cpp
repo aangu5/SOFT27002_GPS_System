@@ -11,7 +11,7 @@ using namespace GPS;
 
 BOOST_AUTO_TEST_SUITE( Route_timesVisitedString )
 
-const bool isFileName = false;
+const bool isFileName = false; // all data for this test suite is passed in as strings, not files.
 
     // A simple route with one point and one name to check.
     BOOST_AUTO_TEST_CASE( singleton_route )
@@ -77,6 +77,24 @@ const bool isFileName = false;
                 "</rte></gpx>";
         Route route = Route(gpxData, isFileName);
         BOOST_CHECK_EQUAL( route.timesVisited("MyPosition"), 3 );
+    }
+
+    // A complex route where there are many positions with the same name, visited multiple times.
+    BOOST_AUTO_TEST_CASE( one_name_many_positions_and_many_visits )
+    {
+        const std::string gpxData =
+                "<gpx><rte><name>MyRoute</name>"
+                "   <rtept lat=\"0\" lon=\"0\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"90\" lon=\"40\"><name>NotMyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"0\" lon=\"0\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"90\" lon=\"40\"><name>NotMyPosition</name></rtept>"
+                "   <rtept lat=\"0\" lon=\"0\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "</rte></gpx>";
+        Route route = Route(gpxData, isFileName);
+        BOOST_CHECK_EQUAL( route.timesVisited("MyPosition"), 6 );
     }
 
 BOOST_AUTO_TEST_SUITE_END()
