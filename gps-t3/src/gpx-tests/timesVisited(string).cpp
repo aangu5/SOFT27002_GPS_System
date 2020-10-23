@@ -49,4 +49,19 @@ const bool isFileName = false;
         BOOST_CHECK_THROW( route.timesVisited(""), std::invalid_argument );
     }
 
+    // A complex route where many positions share the same name.
+    BOOST_AUTO_TEST_CASE( one_name_multiple_positions )
+    {
+        const std::string gpxData =
+                "<gpx><rte><name>MyRoute</name>"
+                "   <rtept lat=\"0\" lon=\"0\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"1\" lon=\"2\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"90\" lon=\"40\"><name>NotMyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"25\" lon=\"120\"><name>MyPosition</name></rtept>"
+                "</rte></gpx>";
+        Route route = Route(gpxData, isFileName);
+        BOOST_CHECK_EQUAL( route.timesVisited("MyPosition"), 4 );
+    }
+
 BOOST_AUTO_TEST_SUITE_END()
