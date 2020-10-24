@@ -48,6 +48,15 @@ const bool isFileName = false; // all data for this test suite is passed in as s
         BOOST_CHECK_THROW( route.timesVisited(""), std::invalid_argument );
     }
 
+    // A simple route with two positions that are the same location.
+    BOOST_AUTO_TEST_CASE( two_consecutive_visits )
+    {
+        const std::string gpxData =
+                R"(<gpx><rte><name>MyRoute</name><rtept lat="0" lon="0"><name>My Position</name></rtept><rtept lat="0" lon="0"><name>My Position</name></rtept></rte></gpx>)";
+        Route route = Route(gpxData, isFileName);
+        BOOST_CHECK_EQUAL( route.timesVisited("My Position"), 1 );
+    }
+
     // A complex route where many positions share the same name.
     BOOST_AUTO_TEST_CASE( one_name_multiple_positions )
     {
