@@ -41,6 +41,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Removed unnecessary import from timesVisited(string).cpp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603484178743</updated>
       <workItem from="1603484179940" duration="6726000" />
-      <workItem from="1603541251713" duration="2036000" />
+      <workItem from="1603541251713" duration="3720000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Test Suite setup">
       <created>1603485287636</created>
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603490948210</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adjusted order of test cases">
+      <created>1603543951683</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603543951683</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +262,8 @@
     <MESSAGE value="Added one_name_many_positions_and_many_visits to test cases" />
     <MESSAGE value="DO NOT COMMIT" />
     <MESSAGE value="Removed unnecessary import from timesVisited(string).cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary import from timesVisited(string).cpp" />
+    <MESSAGE value="Adjusted order of test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted order of test cases" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Deployment" timestamp="1603485232586">
@@ -273,22 +282,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="772" y="404" key="Github.ShareDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603484207681" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1603490967981">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1603543915049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1603490967981">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915049" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1603543915048">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1603490967981">
+    <state width="1877" height="287" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1603543915048">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1603490967981">
+    <state width="1877" height="287" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1603543915048">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -313,10 +322,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="438" key="VCS.ChangelistChooser/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486718305" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603490950178">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603543954067">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490950178" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543954067" />
     <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603485690982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

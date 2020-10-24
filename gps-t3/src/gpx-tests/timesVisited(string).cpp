@@ -96,4 +96,20 @@ const bool isFileName = false; // all data for this test suite is passed in as s
         BOOST_CHECK_EQUAL( route.timesVisited("MyPosition"), 6 );
     }
 
+    // A complex route where there is one position visited multiple times, but with different names.
+    BOOST_AUTO_TEST_CASE( one_position_many_names )
+    {
+        const std::string gpxData =
+                "<gpx><rte><name>MyRoute</name>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>NotMyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>NotMyPosition</name></rtept>"
+                "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "</rte></gpx>";
+        Route route = Route(gpxData, isFileName);
+        BOOST_CHECK_EQUAL( route.timesVisited("MyPosition"), 4 );
+    }
+
 BOOST_AUTO_TEST_SUITE_END()
