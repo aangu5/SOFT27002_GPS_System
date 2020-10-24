@@ -39,13 +39,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Added one_position_many_visits to test cases">
+    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Removed unnecessary import from timesVisited(string).cpp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" afterDir="false" />
-    </list>
-    <list id="11b39c49-9185-49ea-b878-41870d36266e" name="DO NOT COMMIT" comment="">
-      <change beforePath="$PROJECT_DIR$/gps-analysing_routes/src/route.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-analysing_routes/src/route.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,12 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
   </component>
-  <component name="RunManager" selected="Boost.Test.one_name_many_positions_and_many_visits">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Boost.Test.Boost_Tests_run">
     <configuration name="Boost_Tests_run" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -97,6 +87,11 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
@@ -118,12 +113,12 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="" />
-      <changelist id="11b39c49-9185-49ea-b878-41870d36266e" name="DO NOT COMMIT" comment="" />
       <created>1603484178743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603484178743</updated>
-      <workItem from="1603484179940" duration="6389000" />
+      <workItem from="1603484179940" duration="6726000" />
+      <workItem from="1603541251713" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Test Suite setup">
       <created>1603485287636</created>
@@ -195,7 +190,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603490518539</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added one_name_many_positions_and_many_visits to test cases">
+      <created>1603490665427</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603490665427</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DO NOT COMMIT">
+      <created>1603490910564</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603490910564</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Removed unnecessary import from timesVisited(string).cpp">
+      <created>1603490948210</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603490948210</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +239,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Test Suite setup" />
@@ -234,7 +251,10 @@
     <MESSAGE value="Added bad_input_string to test cases" />
     <MESSAGE value="Added one_name_many_positions to test cases" />
     <MESSAGE value="Added one_position_many_visits to test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added one_position_many_visits to test cases" />
+    <MESSAGE value="Added one_name_many_positions_and_many_visits to test cases" />
+    <MESSAGE value="DO NOT COMMIT" />
+    <MESSAGE value="Removed unnecessary import from timesVisited(string).cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary import from timesVisited(string).cpp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Deployment" timestamp="1603485232586">
@@ -245,42 +265,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490628168" />
+    <state x="532" y="111" key="CommitChangelistDialog2" timestamp="1603490910571">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="532" y="111" key="CommitChangelistDialog2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490910571" />
     <state x="772" y="404" key="Github.ShareDialog" timestamp="1603484207681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="772" y="404" key="Github.ShareDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603484207681" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1603490622380">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490622380" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1603490622379">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490622379" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1603490622379">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490622379" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1603490622379">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490622379" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1603488259308">
+    <state width="1877" height="352" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488259308" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1603488259308">
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488259308" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1603488259308">
+    <state width="1877" height="352" key="GridCell.Tab.1.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488259308" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1603488259308">
+    <state width="1877" height="352" key="GridCell.Tab.1.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1603490967981">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603488259308" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
     <state x="777" y="227" key="RollbackChangesDialog" timestamp="1603486872053">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -289,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="438" key="VCS.ChangelistChooser/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486718305" />
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603490520286">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1603490950178">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490520286" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490950178" />
     <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603485690982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -305,16 +329,5 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603485672257" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/gps-analysing_routes/src/route.cpp</url>
-          <line>171</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

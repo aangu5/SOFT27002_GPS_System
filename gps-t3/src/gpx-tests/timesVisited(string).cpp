@@ -21,15 +21,6 @@ const bool isFileName = false; // all data for this test suite is passed in as s
         BOOST_CHECK_EQUAL( route.timesVisited("MyPosition"), 1 );
     }
 
-    // A simple route with one point and one name to check, with leading and trailing spaces to check the method matches the constructor.
-    BOOST_AUTO_TEST_CASE( singleton_route_with_spaces )
-    {
-        const std::string gpxData =
-                R"(<gpx><rte><name>MyRoute</name><rtept lat="0" lon="0"><name>    My Position    </name></rtept></rte></gpx>)";
-        Route route = Route(gpxData, isFileName);
-        BOOST_CHECK_EQUAL( route.timesVisited("My Position"), 1 );
-    }
-
     // A simple route with one point and checking the number of times for a position that wasn't visited.
     BOOST_AUTO_TEST_CASE( position_not_visited )
     {
@@ -37,6 +28,15 @@ const bool isFileName = false; // all data for this test suite is passed in as s
                 R"(<gpx><rte><name>MyRoute</name><rtept lat="0" lon="0"></rtept></rte></gpx>)";
         Route route = Route(gpxData, isFileName);
         BOOST_CHECK_EQUAL( route.timesVisited("Your Position"), 0 );
+    }
+
+    // A simple route with one point and one name to check, with leading and trailing spaces to check the method matches the constructor.
+    BOOST_AUTO_TEST_CASE( singleton_route_with_spaces )
+    {
+        const std::string gpxData =
+                R"(<gpx><rte><name>MyRoute</name><rtept lat="0" lon="0"><name>    My Position    </name></rtept></rte></gpx>)";
+        Route route = Route(gpxData, isFileName);
+        BOOST_CHECK_EQUAL( route.timesVisited("My Position"), 1 );
     }
 
     // A simple route with one point and checking invalid_argument is thrown when a blank string is passed in.
