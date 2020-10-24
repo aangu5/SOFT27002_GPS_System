@@ -36,10 +36,6 @@ element.h
 types.h
 ../../gps-t2/headers/types.h
 
-../../gps-t2/headers/logs.h
-string
--
-
 ../../gps-t2/headers/position.h
 string
 -
@@ -73,12 +69,4 @@ xml/parser.h
 /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.h
 route.h
 /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.h
-
-/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/gpx-tests/timesVisited(string).cpp
-boost/test/unit_test.hpp
--
-logs.h
-/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/gpx-tests/logs.h
-route.h
-/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/gpx-tests/route.h
 

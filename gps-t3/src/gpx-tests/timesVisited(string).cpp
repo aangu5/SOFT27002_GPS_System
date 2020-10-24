@@ -36,7 +36,7 @@ const bool isFileName = false; // all data for this test suite is passed in as s
         const std::string gpxData =
                 R"(<gpx><rte><name>MyRoute</name><rtept lat="0" lon="0"><name>    My Position    </name></rtept></rte></gpx>)";
         Route route = Route(gpxData, isFileName);
-        BOOST_CHECK_EQUAL( route.timesVisited("My Position"), 1 );
+        BOOST_CHECK_EQUAL( route.timesVisited("     My Position   "), 1 );
     }
 
     // A simple route with one point and checking invalid_argument is thrown when a blank string is passed in.
@@ -102,10 +102,15 @@ const bool isFileName = false; // all data for this test suite is passed in as s
         const std::string gpxData =
                 "<gpx><rte><name>MyRoute</name>"
                 "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"1\" lon=\"5\"><name>ReallyNotMyPosition</name></rtept>"
                 "   <rtept lat=\"-11\" lon=\"150\"><name>NotMyPosition</name></rtept>"
+                "   <rtept lat=\"1\" lon=\"5\"><name>ReallyNotMyPosition</name></rtept>"
                 "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"1\" lon=\"5\"><name>ReallyNotMyPosition</name></rtept>"
                 "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
+                "   <rtept lat=\"1\" lon=\"5\"><name>ReallyNotMyPosition</name></rtept>"
                 "   <rtept lat=\"-11\" lon=\"150\"><name>NotMyPosition</name></rtept>"
+                "   <rtept lat=\"1\" lon=\"5\"><name>ReallyNotMyPosition</name></rtept>"
                 "   <rtept lat=\"-11\" lon=\"150\"><name>MyPosition</name></rtept>"
                 "</rte></gpx>";
         Route route = Route(gpxData, isFileName);
