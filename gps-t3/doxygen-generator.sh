@@ -5,9 +5,9 @@ doxygen Doxyfile
 cd latex
 make
 cd ../..
-echo "# Directory Structure" > directorySctructure.md
+echo "# Directory Structure" > directoryStructure.md
 echo "\`\`\`" >> directoryStructure.md
-tree ../${repo_name}/src >> directorySctructure.md
-tree ../${repo_name}/headers >> directorySctructure.md
-directorySctructure.md
-echo "\`\`\`" >> directorySctructure.md
+tree ../${repo_name}/src >> directoryStructure.md
+tree ../${repo_name}/headers >> directoryStructure.md
+directoryStructure.md
+echo "\`\`\`" >> directoryStructure.md

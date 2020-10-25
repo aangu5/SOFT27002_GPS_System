@@ -1,0 +1,139 @@
+\hypertarget{times_visited_07string_08_8cpp}{}\doxysection{times\+Visited(string).cpp File Reference}
+\label{times_visited_07string_08_8cpp}\index{timesVisited(string).cpp@{timesVisited(string).cpp}}
+{\ttfamily \#include $<$boost/test/unit\+\_\+test.\+hpp$>$}\newline
+{\ttfamily \#include \char`\"{}logs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}route.\+h\char`\"{}}\newline
+Include dependency graph for times\+Visited(string).cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_a7591a509611a78702233d6eafd7f13b2}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (singleton\+\_\+route)
+\begin{DoxyCompactList}\small\item\em A simple route with one point and one name to check. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_a83075c5f0fd0b3b73d4731c7d093117c}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (position\+\_\+not\+\_\+visited)
+\begin{DoxyCompactList}\small\item\em A simple route with one point and checking the number of times for a position that wasn\textquotesingle{}t visited. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_ae4f1a7c8b11bbbcc7c87fe15772cfa8f}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (singleton\+\_\+route\+\_\+with\+\_\+spaces)
+\begin{DoxyCompactList}\small\item\em A simple route with one point and one name to check, with leading and trailing spaces to check the method matches the constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_a1dae3bf67a52baa9f357f2c242632b55}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (bad\+\_\+input\+\_\+string)
+\begin{DoxyCompactList}\small\item\em A simple route with one point and checking invalid\+\_\+argument is thrown when a blank string is passed in. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_a39fbf0cb47f620d94c65777786580325}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (two\+\_\+consecutive\+\_\+visits)
+\begin{DoxyCompactList}\small\item\em A simple route with two positions that are the same location. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_aa92d19476cd79bea778e88c2e189d89f}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (one\+\_\+name\+\_\+multiple\+\_\+positions)
+\begin{DoxyCompactList}\small\item\em A complex route where many positions share the same name. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_af18241e54955aa980a803562102f33d5}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (one\+\_\+position\+\_\+many\+\_\+visits)
+\begin{DoxyCompactList}\small\item\em A complex route where one position is visited many times. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_a6284291f37a0e3c3d433e52264f56ad7}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (one\+\_\+name\+\_\+many\+\_\+positions\+\_\+and\+\_\+many\+\_\+visits)
+\begin{DoxyCompactList}\small\item\em A complex route where there are many positions with the same name, visited multiple times. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{times_visited_07string_08_8cpp_acf98337d51d52f1bb84ef2590eea2b2f}{B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE}} (one\+\_\+position\+\_\+many\+\_\+names)
+\begin{DoxyCompactList}\small\item\em A complex route where there is one position visited multiple times, but with different names. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const bool \mbox{\hyperlink{times_visited_07string_08_8cpp_a1625946e028e3f16f51e3d89fa1f04df}{is\+File\+Name}} = false
+\begin{DoxyCompactList}\small\item\em all data for this test suite is passed in as strings, not files. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_a1dae3bf67a52baa9f357f2c242632b55}\label{times_visited_07string_08_8cpp_a1dae3bf67a52baa9f357f2c242632b55}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [1/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{bad\+\_\+input\+\_\+string}]{ }\end{DoxyParamCaption})}
+
+
+
+A simple route with one point and checking invalid\+\_\+argument is thrown when a blank string is passed in. 
+
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_a6284291f37a0e3c3d433e52264f56ad7}\label{times_visited_07string_08_8cpp_a6284291f37a0e3c3d433e52264f56ad7}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [2/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{one\+\_\+name\+\_\+many\+\_\+positions\+\_\+and\+\_\+many\+\_\+visits}]{ }\end{DoxyParamCaption})}
+
+
+
+A complex route where there are many positions with the same name, visited multiple times. 
+
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_aa92d19476cd79bea778e88c2e189d89f}\label{times_visited_07string_08_8cpp_aa92d19476cd79bea778e88c2e189d89f}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [3/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{one\+\_\+name\+\_\+multiple\+\_\+positions}]{ }\end{DoxyParamCaption})}
+
+
+
+A complex route where many positions share the same name. 
+
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_acf98337d51d52f1bb84ef2590eea2b2f}\label{times_visited_07string_08_8cpp_acf98337d51d52f1bb84ef2590eea2b2f}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [4/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{one\+\_\+position\+\_\+many\+\_\+names}]{ }\end{DoxyParamCaption})}
+
+
+
+A complex route where there is one position visited multiple times, but with different names. 
+
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_af18241e54955aa980a803562102f33d5}\label{times_visited_07string_08_8cpp_af18241e54955aa980a803562102f33d5}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [5/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{one\+\_\+position\+\_\+many\+\_\+visits}]{ }\end{DoxyParamCaption})}
+
+
+
+A complex route where one position is visited many times. 
+
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_a83075c5f0fd0b3b73d4731c7d093117c}\label{times_visited_07string_08_8cpp_a83075c5f0fd0b3b73d4731c7d093117c}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [6/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{position\+\_\+not\+\_\+visited}]{ }\end{DoxyParamCaption})}
+
+
+
+A simple route with one point and checking the number of times for a position that wasn\textquotesingle{}t visited. 
+
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_a7591a509611a78702233d6eafd7f13b2}\label{times_visited_07string_08_8cpp_a7591a509611a78702233d6eafd7f13b2}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [7/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{singleton\+\_\+route}]{ }\end{DoxyParamCaption})}
+
+
+
+A simple route with one point and one name to check. 
+
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_ae4f1a7c8b11bbbcc7c87fe15772cfa8f}\label{times_visited_07string_08_8cpp_ae4f1a7c8b11bbbcc7c87fe15772cfa8f}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [8/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{singleton\+\_\+route\+\_\+with\+\_\+spaces}]{ }\end{DoxyParamCaption})}
+
+
+
+A simple route with one point and one name to check, with leading and trailing spaces to check the method matches the constructor. 
+
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_a39fbf0cb47f620d94c65777786580325}\label{times_visited_07string_08_8cpp_a39fbf0cb47f620d94c65777786580325}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}}
+\index{BOOST\_AUTO\_TEST\_CASE@{BOOST\_AUTO\_TEST\_CASE}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_AUTO\_TEST\_CASE()}{BOOST\_AUTO\_TEST\_CASE()}\hspace{0.1cm}{\footnotesize\ttfamily [9/9]}}
+{\footnotesize\ttfamily B\+O\+O\+S\+T\+\_\+\+A\+U\+T\+O\+\_\+\+T\+E\+S\+T\+\_\+\+C\+A\+SE (\begin{DoxyParamCaption}\item[{two\+\_\+consecutive\+\_\+visits}]{ }\end{DoxyParamCaption})}
+
+
+
+A simple route with two positions that are the same location. 
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{times_visited_07string_08_8cpp_a1625946e028e3f16f51e3d89fa1f04df}\label{times_visited_07string_08_8cpp_a1625946e028e3f16f51e3d89fa1f04df}} 
+\index{timesVisited(string).cpp@{timesVisited(string).cpp}!isFileName@{isFileName}}
+\index{isFileName@{isFileName}!timesVisited(string).cpp@{timesVisited(string).cpp}}
+\doxysubsubsection{\texorpdfstring{isFileName}{isFileName}}
+{\footnotesize\ttfamily const bool is\+File\+Name = false}
+
+
+
+all data for this test suite is passed in as strings, not files. 
+

@@ -41,7 +41,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Removed unnecessary import from timesVisited(string).cpp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/Doxygen" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/Doxyfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/doxygen-generator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/doxygen-generator.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +78,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Angus\CLionProjects\gps1\gps-t3" />
+      <recent name="C:\Users\Angus\CLionProjects\gps1\gps-t3\docs" />
+    </key>
   </component>
   <component name="RunManager" selected="Boost.Test.Boost_Tests_run">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
@@ -136,7 +145,7 @@
       <updated>1603484178743</updated>
       <workItem from="1603484179940" duration="6726000" />
       <workItem from="1603541251713" duration="5307000" />
-      <workItem from="1603623759312" duration="1305000" />
+      <workItem from="1603623759312" duration="3972000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Test Suite setup">
       <created>1603485287636</created>
@@ -271,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603546477077</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added Doxygen related files">
+      <created>1603636153810</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603636153810</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +334,8 @@
     <MESSAGE value="Amended test data for one_position_many_names and singleton_route_with_spaces" />
     <MESSAGE value="DO NOT COMMIT" />
     <MESSAGE value="Added two_consecutive_visits to test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two_consecutive_visits to test cases" />
+    <MESSAGE value="Added Doxygen related files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Doxygen related files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Deployment" timestamp="1603485232586">
@@ -329,6 +346,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490628168" />
+    <state x="2221" y="851" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603636026986">
+      <screen x="1920" y="-371" width="1080" height="1890" />
+    </state>
+    <state x="2221" y="851" key="#com.intellij.fileTypes.FileTypeChooser/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603636026986" />
     <state x="2145" y="-171" key="CommitChangelistDialog2" timestamp="1603546452243">
       <screen x="1920" y="-371" width="1080" height="1890" />
     </state>
@@ -338,26 +359,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="772" y="404" key="Github.ShareDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603484207681" />
-    <state width="1063" height="343" key="GridCell.Tab.0.bottom" timestamp="1603555603553">
+    <state width="1034" height="250" key="GridCell.Tab.0.bottom" timestamp="1603637812981">
       <screen x="1920" y="-371" width="1080" height="1890" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915049" />
-    <state width="1063" height="343" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1063" height="343" key="GridCell.Tab.0.center" timestamp="1603555603553">
+    <state width="1034" height="250" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
+    <state width="1034" height="250" key="GridCell.Tab.0.center" timestamp="1603637812981">
       <screen x="1920" y="-371" width="1080" height="1890" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
-    <state width="1063" height="343" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1063" height="343" key="GridCell.Tab.0.left" timestamp="1603555603553">
+    <state width="1034" height="250" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
+    <state width="1034" height="250" key="GridCell.Tab.0.left" timestamp="1603637812981">
       <screen x="1920" y="-371" width="1080" height="1890" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
-    <state width="1063" height="343" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1063" height="343" key="GridCell.Tab.0.right" timestamp="1603555603553">
+    <state width="1034" height="250" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
+    <state width="1034" height="250" key="GridCell.Tab.0.right" timestamp="1603637812981">
       <screen x="1920" y="-371" width="1080" height="1890" />
     </state>
     <state width="1877" height="287" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
-    <state width="1063" height="343" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
+    <state width="1034" height="250" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
     <state width="1063" height="343" key="GridCell.Tab.1.bottom" timestamp="1603555603553">
       <screen x="1920" y="-371" width="1080" height="1890" />
     </state>
@@ -386,11 +407,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="438" key="VCS.ChangelistChooser/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486718305" />
-    <state x="2184" y="68" key="Vcs.Push.Dialog.v2" timestamp="1603546478425">
+    <state x="2184" y="68" key="Vcs.Push.Dialog.v2" timestamp="1603636155154">
       <screen x="1920" y="-371" width="1080" height="1890" />
     </state>
     <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603545606760" />
-    <state x="2184" y="68" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603546478425" />
+    <state x="2184" y="68" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603636155154" />
     <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603485690982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
