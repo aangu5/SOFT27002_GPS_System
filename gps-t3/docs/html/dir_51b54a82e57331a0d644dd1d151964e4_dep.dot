@@ -1,0 +1,11 @@
+digraph "gpx-tests" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2dcdd076a38b17e9ccd456f294c524a7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_2dcdd076a38b17e9ccd456f294c524a7.html"]
+  dir_51b54a82e57331a0d644dd1d151964e4 [shape=box, label="gpx-tests", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_51b54a82e57331a0d644dd1d151964e4.html"];
+  }
+  dir_ed8ff92b09fa8e920f169067f0da0da8 [shape=box label="gps-analysing_routes" fillcolor="white" style="filled" color="red" URL="dir_ed8ff92b09fa8e920f169067f0da0da8.html"];
+  dir_51b54a82e57331a0d644dd1d151964e4->dir_ed8ff92b09fa8e920f169067f0da0da8 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000001.html"];
+}

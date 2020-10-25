@@ -1,0 +1,278 @@
+\hypertarget{class_g_p_s_1_1_route}{}\doxysection{G\+PS\+::Route Class Reference}
+\label{class_g_p_s_1_1_route}\index{GPS::Route@{GPS::Route}}
+
+
+{\ttfamily \#include $<$route.\+h$>$}
+
+
+
+Inheritance diagram for G\+PS\+::Route\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_g_p_s_1_1_route_ae427e2de4dae8a08cf3218f618ec1249}{Route}} (std\+::string source, bool \mbox{\hyperlink{times_visited_07string_08_8cpp_a1625946e028e3f16f51e3d89fa1f04df}{is\+File\+Name}}, metres \mbox{\hyperlink{class_g_p_s_1_1_route_a2278bce890c109dc96eb9ba9ed0c323c}{granularity}}=20)
+\item 
+virtual void \mbox{\hyperlink{class_g_p_s_1_1_route_a44eef75c9a9d7e0799124d905cf2bff0}{set\+Granularity}} (metres)
+\item 
+std\+::string \mbox{\hyperlink{class_g_p_s_1_1_route_a3e227db3649c35b3abe03ef883783046}{name}} () const
+\item 
+unsigned int \mbox{\hyperlink{class_g_p_s_1_1_route_a36331a555f396d2a888c7f0b4867e799}{num\+Positions}} () const
+\item 
+metres \mbox{\hyperlink{class_g_p_s_1_1_route_a9ac6e88042df83feb6bf195c73bb2edf}{total\+Length}} () const
+\item 
+metres \mbox{\hyperlink{class_g_p_s_1_1_route_a6e0aee6a7bd51d922dbec7e37ff7788e}{net\+Length}} () const
+\item 
+metres \mbox{\hyperlink{class_g_p_s_1_1_route_a2eda3d464cb942aed700ddf88b8b776d}{total\+Height\+Gain}} () const
+\item 
+metres \mbox{\hyperlink{class_g_p_s_1_1_route_a906c64f9e0929f8c2e7f42a30d51fb15}{net\+Height\+Gain}} () const
+\item 
+degrees \mbox{\hyperlink{class_g_p_s_1_1_route_ad1387a4f572bf2be34ba90b0f6477332}{max\+Gradient}} () const
+\item 
+degrees \mbox{\hyperlink{class_g_p_s_1_1_route_a73db67a2abeaf85aae848539cc99dc88}{min\+Gradient}} () const
+\item 
+degrees \mbox{\hyperlink{class_g_p_s_1_1_route_a372a6ec0351ce4a990db336973cbe6db}{steepest\+Gradient}} () const
+\item 
+degrees \mbox{\hyperlink{class_g_p_s_1_1_route_af2a1eb32d2487c28895b15533ac886ac}{min\+Latitude}} () const
+\item 
+degrees \mbox{\hyperlink{class_g_p_s_1_1_route_a61ed07547cb41b0fb6e295ab4e1d9540}{max\+Latitude}} () const
+\item 
+degrees \mbox{\hyperlink{class_g_p_s_1_1_route_aa211dff05e69848c8c68917141e1a9c1}{min\+Longitude}} () const
+\item 
+degrees \mbox{\hyperlink{class_g_p_s_1_1_route_ae615c8d8da8b64d73271b179cc439ca9}{max\+Longitude}} () const
+\item 
+metres \mbox{\hyperlink{class_g_p_s_1_1_route_af8f59cc49d9c2ded9ef3f625af6434cc}{min\+Elevation}} () const
+\item 
+metres \mbox{\hyperlink{class_g_p_s_1_1_route_a1002e308e25b21ef23c5eac3fcb1e2f0}{max\+Elevation}} () const
+\item 
+Position \mbox{\hyperlink{class_g_p_s_1_1_route_aa19be8797b7175681ccc072b4a967679}{operator\mbox{[}$\,$\mbox{]}}} (unsigned int) const
+\item 
+Position \mbox{\hyperlink{class_g_p_s_1_1_route_a06900233fd7b55805de91153f23a5284}{find\+Position}} (std\+::string sought\+Name) const
+\item 
+std\+::string \mbox{\hyperlink{class_g_p_s_1_1_route_adbf91086d7c712750e992a8b6b39dde4}{find\+Name\+Of}} (Position) const
+\item 
+unsigned int \mbox{\hyperlink{class_g_p_s_1_1_route_aa4c247fd253b1d8236f1b51f803db2c0}{times\+Visited}} (std\+::string sought\+Name) const
+\item 
+unsigned int \mbox{\hyperlink{class_g_p_s_1_1_route_a067010d0470b82d192ddb02904e57050}{times\+Visited}} (Position) const
+\item 
+bool \mbox{\hyperlink{class_g_p_s_1_1_route_a9e43e1a49738f0265ce4eb48d39d0e62}{contains\+Cycles}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_g_p_s_1_1_route_a5056ba87eb9e9749b3e4c332f60e14d3}{Route}} ()
+\item 
+bool \mbox{\hyperlink{class_g_p_s_1_1_route_afc5113ef3afb3759bf2d3ccca8c3e119}{are\+Same\+Location}} (Position, Position) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ Position $>$ \mbox{\hyperlink{class_g_p_s_1_1_route_a9c7be789842aa516c8339dcc20ec9114}{positions}}
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_g_p_s_1_1_route_a7ad39803a0dcd28d007d71f31576faaa}{position\+Names}}
+\item 
+std\+::string \mbox{\hyperlink{class_g_p_s_1_1_route_a241cf1597bd501b06bd52329ef57c73c}{route\+Name}}
+\item 
+metres \mbox{\hyperlink{class_g_p_s_1_1_route_a0b1404b95bd07bcf8649d20d6c64eff2}{route\+Length}}
+\item 
+metres \mbox{\hyperlink{class_g_p_s_1_1_route_a2278bce890c109dc96eb9ba9ed0c323c}{granularity}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_g_p_s_1_1_route_ae427e2de4dae8a08cf3218f618ec1249}\label{class_g_p_s_1_1_route_ae427e2de4dae8a08cf3218f618ec1249}} 
+\index{GPS::Route@{GPS::Route}!Route@{Route}}
+\index{Route@{Route}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{Route()}{Route()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Route\+::\+Route (\begin{DoxyParamCaption}\item[{std\+::string}]{source,  }\item[{bool}]{is\+File\+Name,  }\item[{metres}]{granularity = {\ttfamily 20} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a5056ba87eb9e9749b3e4c332f60e14d3}\label{class_g_p_s_1_1_route_a5056ba87eb9e9749b3e4c332f60e14d3}} 
+\index{GPS::Route@{GPS::Route}!Route@{Route}}
+\index{Route@{Route}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{Route()}{Route()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily G\+P\+S\+::\+Route\+::\+Route (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_g_p_s_1_1_route_afc5113ef3afb3759bf2d3ccca8c3e119}\label{class_g_p_s_1_1_route_afc5113ef3afb3759bf2d3ccca8c3e119}} 
+\index{GPS::Route@{GPS::Route}!areSameLocation@{areSameLocation}}
+\index{areSameLocation@{areSameLocation}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{areSameLocation()}{areSameLocation()}}
+{\footnotesize\ttfamily bool Route\+::are\+Same\+Location (\begin{DoxyParamCaption}\item[{Position}]{p1,  }\item[{Position}]{p2 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a9e43e1a49738f0265ce4eb48d39d0e62}\label{class_g_p_s_1_1_route_a9e43e1a49738f0265ce4eb48d39d0e62}} 
+\index{GPS::Route@{GPS::Route}!containsCycles@{containsCycles}}
+\index{containsCycles@{containsCycles}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{containsCycles()}{containsCycles()}}
+{\footnotesize\ttfamily bool Route\+::contains\+Cycles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_adbf91086d7c712750e992a8b6b39dde4}\label{class_g_p_s_1_1_route_adbf91086d7c712750e992a8b6b39dde4}} 
+\index{GPS::Route@{GPS::Route}!findNameOf@{findNameOf}}
+\index{findNameOf@{findNameOf}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{findNameOf()}{findNameOf()}}
+{\footnotesize\ttfamily std\+::string Route\+::find\+Name\+Of (\begin{DoxyParamCaption}\item[{Position}]{sought\+Pos }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a06900233fd7b55805de91153f23a5284}\label{class_g_p_s_1_1_route_a06900233fd7b55805de91153f23a5284}} 
+\index{GPS::Route@{GPS::Route}!findPosition@{findPosition}}
+\index{findPosition@{findPosition}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{findPosition()}{findPosition()}}
+{\footnotesize\ttfamily Position Route\+::find\+Position (\begin{DoxyParamCaption}\item[{std\+::string}]{sought\+Name }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a1002e308e25b21ef23c5eac3fcb1e2f0}\label{class_g_p_s_1_1_route_a1002e308e25b21ef23c5eac3fcb1e2f0}} 
+\index{GPS::Route@{GPS::Route}!maxElevation@{maxElevation}}
+\index{maxElevation@{maxElevation}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{maxElevation()}{maxElevation()}}
+{\footnotesize\ttfamily metres Route\+::max\+Elevation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_ad1387a4f572bf2be34ba90b0f6477332}\label{class_g_p_s_1_1_route_ad1387a4f572bf2be34ba90b0f6477332}} 
+\index{GPS::Route@{GPS::Route}!maxGradient@{maxGradient}}
+\index{maxGradient@{maxGradient}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{maxGradient()}{maxGradient()}}
+{\footnotesize\ttfamily degrees Route\+::max\+Gradient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a61ed07547cb41b0fb6e295ab4e1d9540}\label{class_g_p_s_1_1_route_a61ed07547cb41b0fb6e295ab4e1d9540}} 
+\index{GPS::Route@{GPS::Route}!maxLatitude@{maxLatitude}}
+\index{maxLatitude@{maxLatitude}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{maxLatitude()}{maxLatitude()}}
+{\footnotesize\ttfamily degrees Route\+::max\+Latitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_ae615c8d8da8b64d73271b179cc439ca9}\label{class_g_p_s_1_1_route_ae615c8d8da8b64d73271b179cc439ca9}} 
+\index{GPS::Route@{GPS::Route}!maxLongitude@{maxLongitude}}
+\index{maxLongitude@{maxLongitude}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{maxLongitude()}{maxLongitude()}}
+{\footnotesize\ttfamily degrees Route\+::max\+Longitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_af8f59cc49d9c2ded9ef3f625af6434cc}\label{class_g_p_s_1_1_route_af8f59cc49d9c2ded9ef3f625af6434cc}} 
+\index{GPS::Route@{GPS::Route}!minElevation@{minElevation}}
+\index{minElevation@{minElevation}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{minElevation()}{minElevation()}}
+{\footnotesize\ttfamily metres Route\+::min\+Elevation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a73db67a2abeaf85aae848539cc99dc88}\label{class_g_p_s_1_1_route_a73db67a2abeaf85aae848539cc99dc88}} 
+\index{GPS::Route@{GPS::Route}!minGradient@{minGradient}}
+\index{minGradient@{minGradient}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{minGradient()}{minGradient()}}
+{\footnotesize\ttfamily degrees Route\+::min\+Gradient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_af2a1eb32d2487c28895b15533ac886ac}\label{class_g_p_s_1_1_route_af2a1eb32d2487c28895b15533ac886ac}} 
+\index{GPS::Route@{GPS::Route}!minLatitude@{minLatitude}}
+\index{minLatitude@{minLatitude}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{minLatitude()}{minLatitude()}}
+{\footnotesize\ttfamily degrees Route\+::min\+Latitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_aa211dff05e69848c8c68917141e1a9c1}\label{class_g_p_s_1_1_route_aa211dff05e69848c8c68917141e1a9c1}} 
+\index{GPS::Route@{GPS::Route}!minLongitude@{minLongitude}}
+\index{minLongitude@{minLongitude}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{minLongitude()}{minLongitude()}}
+{\footnotesize\ttfamily degrees Route\+::min\+Longitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a3e227db3649c35b3abe03ef883783046}\label{class_g_p_s_1_1_route_a3e227db3649c35b3abe03ef883783046}} 
+\index{GPS::Route@{GPS::Route}!name@{name}}
+\index{name@{name}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{name()}{name()}}
+{\footnotesize\ttfamily std\+::string Route\+::name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a906c64f9e0929f8c2e7f42a30d51fb15}\label{class_g_p_s_1_1_route_a906c64f9e0929f8c2e7f42a30d51fb15}} 
+\index{GPS::Route@{GPS::Route}!netHeightGain@{netHeightGain}}
+\index{netHeightGain@{netHeightGain}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{netHeightGain()}{netHeightGain()}}
+{\footnotesize\ttfamily metres Route\+::net\+Height\+Gain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a6e0aee6a7bd51d922dbec7e37ff7788e}\label{class_g_p_s_1_1_route_a6e0aee6a7bd51d922dbec7e37ff7788e}} 
+\index{GPS::Route@{GPS::Route}!netLength@{netLength}}
+\index{netLength@{netLength}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{netLength()}{netLength()}}
+{\footnotesize\ttfamily metres Route\+::net\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a36331a555f396d2a888c7f0b4867e799}\label{class_g_p_s_1_1_route_a36331a555f396d2a888c7f0b4867e799}} 
+\index{GPS::Route@{GPS::Route}!numPositions@{numPositions}}
+\index{numPositions@{numPositions}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{numPositions()}{numPositions()}}
+{\footnotesize\ttfamily unsigned int Route\+::num\+Positions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_aa19be8797b7175681ccc072b4a967679}\label{class_g_p_s_1_1_route_aa19be8797b7175681ccc072b4a967679}} 
+\index{GPS::Route@{GPS::Route}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily Position Route\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{unsigned int}]{idx }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a44eef75c9a9d7e0799124d905cf2bff0}\label{class_g_p_s_1_1_route_a44eef75c9a9d7e0799124d905cf2bff0}} 
+\index{GPS::Route@{GPS::Route}!setGranularity@{setGranularity}}
+\index{setGranularity@{setGranularity}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{setGranularity()}{setGranularity()}}
+{\footnotesize\ttfamily void Route\+::set\+Granularity (\begin{DoxyParamCaption}\item[{metres}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_g_p_s_1_1_track_adecca9858fcd1288560c9cfaf676ec8a}{G\+P\+S\+::\+Track}}.
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a372a6ec0351ce4a990db336973cbe6db}\label{class_g_p_s_1_1_route_a372a6ec0351ce4a990db336973cbe6db}} 
+\index{GPS::Route@{GPS::Route}!steepestGradient@{steepestGradient}}
+\index{steepestGradient@{steepestGradient}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{steepestGradient()}{steepestGradient()}}
+{\footnotesize\ttfamily degrees Route\+::steepest\+Gradient (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a067010d0470b82d192ddb02904e57050}\label{class_g_p_s_1_1_route_a067010d0470b82d192ddb02904e57050}} 
+\index{GPS::Route@{GPS::Route}!timesVisited@{timesVisited}}
+\index{timesVisited@{timesVisited}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{timesVisited()}{timesVisited()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily unsigned int Route\+::times\+Visited (\begin{DoxyParamCaption}\item[{Position}]{sought\+Pos }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_aa4c247fd253b1d8236f1b51f803db2c0}\label{class_g_p_s_1_1_route_aa4c247fd253b1d8236f1b51f803db2c0}} 
+\index{GPS::Route@{GPS::Route}!timesVisited@{timesVisited}}
+\index{timesVisited@{timesVisited}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{timesVisited()}{timesVisited()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily unsigned int Route\+::times\+Visited (\begin{DoxyParamCaption}\item[{std\+::string}]{sought\+Name }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a2eda3d464cb942aed700ddf88b8b776d}\label{class_g_p_s_1_1_route_a2eda3d464cb942aed700ddf88b8b776d}} 
+\index{GPS::Route@{GPS::Route}!totalHeightGain@{totalHeightGain}}
+\index{totalHeightGain@{totalHeightGain}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{totalHeightGain()}{totalHeightGain()}}
+{\footnotesize\ttfamily metres Route\+::total\+Height\+Gain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a9ac6e88042df83feb6bf195c73bb2edf}\label{class_g_p_s_1_1_route_a9ac6e88042df83feb6bf195c73bb2edf}} 
+\index{GPS::Route@{GPS::Route}!totalLength@{totalLength}}
+\index{totalLength@{totalLength}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{totalLength()}{totalLength()}}
+{\footnotesize\ttfamily metres Route\+::total\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a2278bce890c109dc96eb9ba9ed0c323c}\label{class_g_p_s_1_1_route_a2278bce890c109dc96eb9ba9ed0c323c}} 
+\index{GPS::Route@{GPS::Route}!granularity@{granularity}}
+\index{granularity@{granularity}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{granularity}{granularity}}
+{\footnotesize\ttfamily metres G\+P\+S\+::\+Route\+::granularity\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a7ad39803a0dcd28d007d71f31576faaa}\label{class_g_p_s_1_1_route_a7ad39803a0dcd28d007d71f31576faaa}} 
+\index{GPS::Route@{GPS::Route}!positionNames@{positionNames}}
+\index{positionNames@{positionNames}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{positionNames}{positionNames}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ G\+P\+S\+::\+Route\+::position\+Names\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a9c7be789842aa516c8339dcc20ec9114}\label{class_g_p_s_1_1_route_a9c7be789842aa516c8339dcc20ec9114}} 
+\index{GPS::Route@{GPS::Route}!positions@{positions}}
+\index{positions@{positions}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{positions}{positions}}
+{\footnotesize\ttfamily std\+::vector$<$Position$>$ G\+P\+S\+::\+Route\+::positions\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a0b1404b95bd07bcf8649d20d6c64eff2}\label{class_g_p_s_1_1_route_a0b1404b95bd07bcf8649d20d6c64eff2}} 
+\index{GPS::Route@{GPS::Route}!routeLength@{routeLength}}
+\index{routeLength@{routeLength}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{routeLength}{routeLength}}
+{\footnotesize\ttfamily metres G\+P\+S\+::\+Route\+::route\+Length\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_route_a241cf1597bd501b06bd52329ef57c73c}\label{class_g_p_s_1_1_route_a241cf1597bd501b06bd52329ef57c73c}} 
+\index{GPS::Route@{GPS::Route}!routeName@{routeName}}
+\index{routeName@{routeName}!GPS::Route@{GPS::Route}}
+\doxysubsubsection{\texorpdfstring{routeName}{routeName}}
+{\footnotesize\ttfamily std\+::string G\+P\+S\+::\+Route\+::route\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{route_8h}{route.\+h}}\item 
+\mbox{\hyperlink{route_8cpp}{route.\+cpp}}\end{DoxyCompactItemize}

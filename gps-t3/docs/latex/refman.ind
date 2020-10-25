@@ -1,0 +1,190 @@
+\begin{theindex}
+
+  \item {areSameLocation}
+    \subitem {GPS::Route}, \hyperpage{12}
+  \item {arrived}
+    \subitem {GPS::Track}, \hyperpage{18}
+  \item {averageSpeed}
+    \subitem {GPS::Track}, \hyperpage{17}
+
+  \indexspace
+
+  \item {BOOST\_AUTO\_TEST\_CASE}
+    \subitem {timesVisited(string).cpp}, \hyperpage{23--25}
+
+  \indexspace
+
+  \item {containsCycles}
+    \subitem {GPS::Route}, \hyperpage{12}
+
+  \indexspace
+
+  \item {departed}
+    \subitem {GPS::Track}, \hyperpage{19}
+
+  \indexspace
+
+  \item {findNameOf}
+    \subitem {GPS::Route}, \hyperpage{12}
+  \item {findPosition}
+    \subitem {GPS::Route}, \hyperpage{13}
+
+  \indexspace
+
+  \item {GPS}, \hyperpage{9}
+  \item {GPS::Route}, \hyperpage{11}
+    \subitem {areSameLocation}, \hyperpage{12}
+    \subitem {containsCycles}, \hyperpage{12}
+    \subitem {findNameOf}, \hyperpage{12}
+    \subitem {findPosition}, \hyperpage{13}
+    \subitem {granularity}, \hyperpage{15}
+    \subitem {maxElevation}, \hyperpage{13}
+    \subitem {maxGradient}, \hyperpage{13}
+    \subitem {maxLatitude}, \hyperpage{13}
+    \subitem {maxLongitude}, \hyperpage{13}
+    \subitem {minElevation}, \hyperpage{13}
+    \subitem {minGradient}, \hyperpage{13}
+    \subitem {minLatitude}, \hyperpage{14}
+    \subitem {minLongitude}, \hyperpage{14}
+    \subitem {name}, \hyperpage{14}
+    \subitem {netHeightGain}, \hyperpage{14}
+    \subitem {netLength}, \hyperpage{14}
+    \subitem {numPositions}, \hyperpage{14}
+    \subitem {operator[]}, \hyperpage{14}
+    \subitem {positionNames}, \hyperpage{16}
+    \subitem {positions}, \hyperpage{16}
+    \subitem {Route}, \hyperpage{12}
+    \subitem {routeLength}, \hyperpage{16}
+    \subitem {routeName}, \hyperpage{16}
+    \subitem {setGranularity}, \hyperpage{14}
+    \subitem {steepestGradient}, \hyperpage{15}
+    \subitem {timesVisited}, \hyperpage{15}
+    \subitem {totalHeightGain}, \hyperpage{15}
+    \subitem {totalLength}, \hyperpage{15}
+  \item {GPS::Track}, \hyperpage{16}
+    \subitem {arrived}, \hyperpage{18}
+    \subitem {averageSpeed}, \hyperpage{17}
+    \subitem {departed}, \hyperpage{19}
+    \subitem {longestRest}, \hyperpage{17}
+    \subitem {maxRateOfAscent}, \hyperpage{17}
+    \subitem {maxRateOfDescent}, \hyperpage{18}
+    \subitem {maxSpeed}, \hyperpage{18}
+    \subitem {restingTime}, \hyperpage{18}
+    \subitem {setGranularity}, \hyperpage{18}
+    \subitem {totalTime}, \hyperpage{18}
+    \subitem {Track}, \hyperpage{17}
+    \subitem {travellingTime}, \hyperpage{18}
+  \item {gpx-\/tests.cpp}, \hyperpage{21}
+  \item {granularity}
+    \subitem {GPS::Route}, \hyperpage{15}
+
+  \indexspace
+
+  \item {isFileName}
+    \subitem {timesVisited(string).cpp}, \hyperpage{25}
+
+  \indexspace
+
+  \item {longestRest}
+    \subitem {GPS::Track}, \hyperpage{17}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{21}
+  \item {main.cpp}, \hyperpage{21}
+    \subitem {main}, \hyperpage{21}
+    \subitem {testRoute}, \hyperpage{21}
+    \subitem {testTrack}, \hyperpage{22}
+  \item {maxElevation}
+    \subitem {GPS::Route}, \hyperpage{13}
+  \item {maxGradient}
+    \subitem {GPS::Route}, \hyperpage{13}
+  \item {maxLatitude}
+    \subitem {GPS::Route}, \hyperpage{13}
+  \item {maxLongitude}
+    \subitem {GPS::Route}, \hyperpage{13}
+  \item {maxRateOfAscent}
+    \subitem {GPS::Track}, \hyperpage{17}
+  \item {maxRateOfDescent}
+    \subitem {GPS::Track}, \hyperpage{18}
+  \item {maxSpeed}
+    \subitem {GPS::Track}, \hyperpage{18}
+  \item {minElevation}
+    \subitem {GPS::Route}, \hyperpage{13}
+  \item {minGradient}
+    \subitem {GPS::Route}, \hyperpage{13}
+  \item {minLatitude}
+    \subitem {GPS::Route}, \hyperpage{14}
+  \item {minLongitude}
+    \subitem {GPS::Route}, \hyperpage{14}
+
+  \indexspace
+
+  \item {name}
+    \subitem {GPS::Route}, \hyperpage{14}
+  \item {netHeightGain}
+    \subitem {GPS::Route}, \hyperpage{14}
+  \item {netLength}
+    \subitem {GPS::Route}, \hyperpage{14}
+  \item {numPositions}
+    \subitem {GPS::Route}, \hyperpage{14}
+
+  \indexspace
+
+  \item {operator[]}
+    \subitem {GPS::Route}, \hyperpage{14}
+
+  \indexspace
+
+  \item {positionNames}
+    \subitem {GPS::Route}, \hyperpage{16}
+  \item {positions}
+    \subitem {GPS::Route}, \hyperpage{16}
+
+  \indexspace
+
+  \item {restingTime}
+    \subitem {GPS::Track}, \hyperpage{18}
+  \item {Route}
+    \subitem {GPS::Route}, \hyperpage{12}
+  \item {route.cpp}, \hyperpage{22}
+  \item {route.h}, \hyperpage{22}
+  \item {routeLength}
+    \subitem {GPS::Route}, \hyperpage{16}
+  \item {routeName}
+    \subitem {GPS::Route}, \hyperpage{16}
+
+  \indexspace
+
+  \item {setGranularity}
+    \subitem {GPS::Route}, \hyperpage{14}
+    \subitem {GPS::Track}, \hyperpage{18}
+  \item {steepestGradient}
+    \subitem {GPS::Route}, \hyperpage{15}
+
+  \indexspace
+
+  \item {testRoute}
+    \subitem {main.cpp}, \hyperpage{21}
+  \item {testTrack}
+    \subitem {main.cpp}, \hyperpage{22}
+  \item {timesVisited}
+    \subitem {GPS::Route}, \hyperpage{15}
+  \item {timesVisited(string).cpp}, \hyperpage{23}
+    \subitem {BOOST\_AUTO\_TEST\_CASE}, \hyperpage{23--25}
+    \subitem {isFileName}, \hyperpage{25}
+  \item {totalHeightGain}
+    \subitem {GPS::Route}, \hyperpage{15}
+  \item {totalLength}
+    \subitem {GPS::Route}, \hyperpage{15}
+  \item {totalTime}
+    \subitem {GPS::Track}, \hyperpage{18}
+  \item {Track}
+    \subitem {GPS::Track}, \hyperpage{17}
+  \item {track.cpp}, \hyperpage{25}
+  \item {track.h}, \hyperpage{25}
+  \item {travellingTime}
+    \subitem {GPS::Track}, \hyperpage{18}
+
+\end{theindex}

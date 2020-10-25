@@ -1,0 +1,72 @@
+\hypertarget{class_g_p_s_1_1_grid_world_track}{}\doxysection{G\+PS\+::Grid\+World\+Track Class Reference}
+\label{class_g_p_s_1_1_grid_world_track}\index{GPS::GridWorldTrack@{GPS::GridWorldTrack}}
+
+
+{\ttfamily \#include $<$gridworld\+\_\+track.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_g_p_s_1_1_grid_world_track_afc9faac4e54b4e544150204f379665d1}{Grid\+World\+Track}} (std\+::string track, seconds time\+Unit\+Duration=10, seconds absolute\+Start\+Time=0, \mbox{\hyperlink{class_g_p_s_1_1_grid_world_model}{Grid\+World\+Model}} gridworld=\mbox{\hyperlink{class_g_p_s_1_1_grid_world_model}{Grid\+World\+Model}}())
+\item 
+std\+::string \mbox{\hyperlink{class_g_p_s_1_1_grid_world_track_af7dd7406af0c95b3d4e279b87016e017}{to\+G\+PX}} (seconds log\+Interval, bool embed\+Name=true, std\+::string track\+Name=\char`\"{}\char`\"{}) const
+\item 
+std\+::string \mbox{\hyperlink{class_g_p_s_1_1_grid_world_track_aba976f8ef434c22f6b7793fe5829a1cc}{to\+N\+M\+EA}} (seconds log\+Interval) const
+\item 
+std\+::string \mbox{\hyperlink{class_g_p_s_1_1_grid_world_track_ac0276bc311a3349b0cf35f8b888cf3a5}{to\+String}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_g_p_s_1_1_grid_world_track_acc14598806cb8a9c33e7ac818b27c16c}{is\+Valid\+Track\+String}} (std\+::string)
+\item 
+static std\+::string \mbox{\hyperlink{class_g_p_s_1_1_grid_world_track_afd1f99da480a1039a251fe0203db04c2}{route\+String\+From\+Track\+String}} (std\+::string)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_g_p_s_1_1_grid_world_track_afc9faac4e54b4e544150204f379665d1}\label{class_g_p_s_1_1_grid_world_track_afc9faac4e54b4e544150204f379665d1}} 
+\index{GPS::GridWorldTrack@{GPS::GridWorldTrack}!GridWorldTrack@{GridWorldTrack}}
+\index{GridWorldTrack@{GridWorldTrack}!GPS::GridWorldTrack@{GPS::GridWorldTrack}}
+\doxysubsubsection{\texorpdfstring{GridWorldTrack()}{GridWorldTrack()}}
+{\footnotesize\ttfamily Grid\+World\+Track\+::\+Grid\+World\+Track (\begin{DoxyParamCaption}\item[{std\+::string}]{track,  }\item[{seconds}]{time\+Unit\+Duration = {\ttfamily 10},  }\item[{seconds}]{absolute\+Start\+Time = {\ttfamily 0},  }\item[{\mbox{\hyperlink{class_g_p_s_1_1_grid_world_model}{Grid\+World\+Model}}}]{gridworld = {\ttfamily \mbox{\hyperlink{class_g_p_s_1_1_grid_world_model}{Grid\+World\+Model}}()} }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_g_p_s_1_1_grid_world_track_acc14598806cb8a9c33e7ac818b27c16c}\label{class_g_p_s_1_1_grid_world_track_acc14598806cb8a9c33e7ac818b27c16c}} 
+\index{GPS::GridWorldTrack@{GPS::GridWorldTrack}!isValidTrackString@{isValidTrackString}}
+\index{isValidTrackString@{isValidTrackString}!GPS::GridWorldTrack@{GPS::GridWorldTrack}}
+\doxysubsubsection{\texorpdfstring{isValidTrackString()}{isValidTrackString()}}
+{\footnotesize\ttfamily bool Grid\+World\+Track\+::is\+Valid\+Track\+String (\begin{DoxyParamCaption}\item[{std\+::string}]{track\+Str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_grid_world_track_afd1f99da480a1039a251fe0203db04c2}\label{class_g_p_s_1_1_grid_world_track_afd1f99da480a1039a251fe0203db04c2}} 
+\index{GPS::GridWorldTrack@{GPS::GridWorldTrack}!routeStringFromTrackString@{routeStringFromTrackString}}
+\index{routeStringFromTrackString@{routeStringFromTrackString}!GPS::GridWorldTrack@{GPS::GridWorldTrack}}
+\doxysubsubsection{\texorpdfstring{routeStringFromTrackString()}{routeStringFromTrackString()}}
+{\footnotesize\ttfamily std\+::string Grid\+World\+Track\+::route\+String\+From\+Track\+String (\begin{DoxyParamCaption}\item[{std\+::string}]{track\+Str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_grid_world_track_af7dd7406af0c95b3d4e279b87016e017}\label{class_g_p_s_1_1_grid_world_track_af7dd7406af0c95b3d4e279b87016e017}} 
+\index{GPS::GridWorldTrack@{GPS::GridWorldTrack}!toGPX@{toGPX}}
+\index{toGPX@{toGPX}!GPS::GridWorldTrack@{GPS::GridWorldTrack}}
+\doxysubsubsection{\texorpdfstring{toGPX()}{toGPX()}}
+{\footnotesize\ttfamily std\+::string Grid\+World\+Track\+::to\+G\+PX (\begin{DoxyParamCaption}\item[{seconds}]{log\+Interval,  }\item[{bool}]{embed\+Name = {\ttfamily true},  }\item[{std\+::string}]{track\+Name = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_grid_world_track_aba976f8ef434c22f6b7793fe5829a1cc}\label{class_g_p_s_1_1_grid_world_track_aba976f8ef434c22f6b7793fe5829a1cc}} 
+\index{GPS::GridWorldTrack@{GPS::GridWorldTrack}!toNMEA@{toNMEA}}
+\index{toNMEA@{toNMEA}!GPS::GridWorldTrack@{GPS::GridWorldTrack}}
+\doxysubsubsection{\texorpdfstring{toNMEA()}{toNMEA()}}
+{\footnotesize\ttfamily std\+::string G\+P\+S\+::\+Grid\+World\+Track\+::to\+N\+M\+EA (\begin{DoxyParamCaption}\item[{seconds}]{log\+Interval }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_g_p_s_1_1_grid_world_track_ac0276bc311a3349b0cf35f8b888cf3a5}\label{class_g_p_s_1_1_grid_world_track_ac0276bc311a3349b0cf35f8b888cf3a5}} 
+\index{GPS::GridWorldTrack@{GPS::GridWorldTrack}!toString@{toString}}
+\index{toString@{toString}!GPS::GridWorldTrack@{GPS::GridWorldTrack}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string Grid\+World\+Track\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/c/\+Users/\+Angus/\+C\+Lion\+Projects/gps1/gps-\/t3/headers/gridworld/\mbox{\hyperlink{gridworld__track_8h}{gridworld\+\_\+track.\+h}}\item 
+/mnt/c/\+Users/\+Angus/\+C\+Lion\+Projects/gps1/gps-\/t3/src/gridworld/\mbox{\hyperlink{gridworld__track_8cpp}{gridworld\+\_\+track.\+cpp}}\end{DoxyCompactItemize}

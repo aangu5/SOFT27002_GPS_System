@@ -1,0 +1,27 @@
+\hypertarget{gpx-tests_8cpp}{}\doxysection{gpx-\/tests.cpp File Reference}
+\label{gpx-tests_8cpp}\index{gpx-\/tests.cpp@{gpx-\/tests.cpp}}
+{\ttfamily \#include $<$boost/test/unit\+\_\+test.\+hpp$>$}\newline
+Include dependency graph for gpx-\/tests.cpp\+:
+% FIG 0
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{gpx-tests_8cpp_a139f00d2466d591f60b8d6a73c8273f1}{B\+O\+O\+S\+T\+\_\+\+T\+E\+S\+T\+\_\+\+D\+Y\+N\+\_\+\+L\+I\+NK}}
+\item 
+\#define \mbox{\hyperlink{gpx-tests_8cpp_a6b2a3852db8bb19ab6909bac01859985}{B\+O\+O\+S\+T\+\_\+\+T\+E\+S\+T\+\_\+\+M\+O\+D\+U\+LE}}~G\+P\+X\+Tests
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{gpx-tests_8cpp_a139f00d2466d591f60b8d6a73c8273f1}\label{gpx-tests_8cpp_a139f00d2466d591f60b8d6a73c8273f1}} 
+\index{gpx-\/tests.cpp@{gpx-\/tests.cpp}!BOOST\_TEST\_DYN\_LINK@{BOOST\_TEST\_DYN\_LINK}}
+\index{BOOST\_TEST\_DYN\_LINK@{BOOST\_TEST\_DYN\_LINK}!gpx-\/tests.cpp@{gpx-\/tests.cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_TEST\_DYN\_LINK}{BOOST\_TEST\_DYN\_LINK}}
+{\footnotesize\ttfamily \#define B\+O\+O\+S\+T\+\_\+\+T\+E\+S\+T\+\_\+\+D\+Y\+N\+\_\+\+L\+I\+NK}
+
+\mbox{\Hypertarget{gpx-tests_8cpp_a6b2a3852db8bb19ab6909bac01859985}\label{gpx-tests_8cpp_a6b2a3852db8bb19ab6909bac01859985}} 
+\index{gpx-\/tests.cpp@{gpx-\/tests.cpp}!BOOST\_TEST\_MODULE@{BOOST\_TEST\_MODULE}}
+\index{BOOST\_TEST\_MODULE@{BOOST\_TEST\_MODULE}!gpx-\/tests.cpp@{gpx-\/tests.cpp}}
+\doxysubsubsection{\texorpdfstring{BOOST\_TEST\_MODULE}{BOOST\_TEST\_MODULE}}
+{\footnotesize\ttfamily \#define B\+O\+O\+S\+T\+\_\+\+T\+E\+S\+T\+\_\+\+M\+O\+D\+U\+LE~G\+P\+X\+Tests}
+
