@@ -9,24 +9,8 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:github/dev" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
@@ -39,10 +23,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Removed unnecessary import from timesVisited(string).cpp">
+    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/docs/Doxygen" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/Doxyfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/doxygen-generator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/doxygen-generator.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/deliverable3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/deliverable3.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,9 +109,9 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -287,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603636153810</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added Doxygen related files">
+      <created>1604076911297</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604076911297</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,54 +350,54 @@
       <screen x="1920" y="-371" width="1080" height="1890" />
     </state>
     <state x="2221" y="851" key="#com.intellij.fileTypes.FileTypeChooser/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603636026986" />
-    <state x="2145" y="-171" key="CommitChangelistDialog2" timestamp="1603546452243">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state x="532" y="111" key="CommitChangelistDialog2" timestamp="1604076911302">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="532" y="111" key="CommitChangelistDialog2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490910571" />
+    <state x="532" y="111" key="CommitChangelistDialog2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604076911302" />
     <state x="2145" y="-171" key="CommitChangelistDialog2/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603546452243" />
     <state x="772" y="404" key="Github.ShareDialog" timestamp="1603484207681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="772" y="404" key="Github.ShareDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603484207681" />
-    <state width="1034" height="250" key="GridCell.Tab.0.bottom" timestamp="1603637812981">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1604078039974">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915049" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039974" />
     <state width="1034" height="250" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
-    <state width="1034" height="250" key="GridCell.Tab.0.center" timestamp="1603637812981">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1604078039973">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039973" />
     <state width="1034" height="250" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
-    <state width="1034" height="250" key="GridCell.Tab.0.left" timestamp="1603637812981">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1604078039973">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039973" />
     <state width="1034" height="250" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
-    <state width="1034" height="250" key="GridCell.Tab.0.right" timestamp="1603637812981">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1604078039973">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603543915048" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039973" />
     <state width="1034" height="250" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
-    <state width="1063" height="343" key="GridCell.Tab.1.bottom" timestamp="1603555603553">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1604078039856">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039856" />
     <state width="1063" height="343" key="GridCell.Tab.1.bottom/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1063" height="343" key="GridCell.Tab.1.center" timestamp="1603555603553">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1604078039856">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039856" />
     <state width="1063" height="343" key="GridCell.Tab.1.center/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1063" height="343" key="GridCell.Tab.1.left" timestamp="1603555603553">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1604078039856">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039856" />
     <state width="1063" height="343" key="GridCell.Tab.1.left/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1063" height="343" key="GridCell.Tab.1.right" timestamp="1603555603553">
-      <screen x="1920" y="-371" width="1080" height="1890" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1604078039856">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603490967981" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039856" />
     <state width="1063" height="343" key="GridCell.Tab.1.right/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
     <state x="777" y="227" key="RollbackChangesDialog" timestamp="1603486872053">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -412,10 +412,10 @@
     </state>
     <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603545606760" />
     <state x="2184" y="68" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603636155154" />
-    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603485690982">
+    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604077739085">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603485690982" />
+    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604077739085" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1603486115278">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

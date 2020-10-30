@@ -123,194 +123,59 @@ Boost_Tests_run/fast:
 	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/build
 .PHONY : Boost_Tests_run/fast
 
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.o: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o
+src/earth.o: src/earth.cpp.o
 
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.o
-
-# target to build an object file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.i: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.i
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.i
-
-# target to preprocess a source file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.i:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.i
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.i
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.s: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.s
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.s
-
-# target to generate assembly for a file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.s:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.s
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.s
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.o: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.o
+.PHONY : src/earth.o
 
 # target to build an object file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o
+src/earth.cpp.o:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.o
+.PHONY : src/earth.cpp.o
 
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.i: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.i
+src/earth.i: src/earth.cpp.i
 
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.i
+.PHONY : src/earth.i
 
 # target to preprocess a source file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.i:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.i
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.i
+src/earth.cpp.i:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.i
+.PHONY : src/earth.cpp.i
 
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.s: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.s
+src/earth.s: src/earth.cpp.s
 
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.s
+.PHONY : src/earth.s
 
 # target to generate assembly for a file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.s:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.s
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.s
+src/earth.cpp.s:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.s
+.PHONY : src/earth.cpp.s
 
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.o: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o
+src/geometry.o: src/geometry.cpp.o
 
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.o
+.PHONY : src/geometry.o
 
 # target to build an object file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o
+src/geometry.cpp.o:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.o
+.PHONY : src/geometry.cpp.o
 
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.i: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.i
+src/geometry.i: src/geometry.cpp.i
 
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.i
-
-# target to preprocess a source file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.i:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.i
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.i
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.s: mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.s
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.s
-
-# target to generate assembly for a file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.s:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.s
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.s
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.o: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.o
-
-# target to build an object file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.i: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.i
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.i
+.PHONY : src/geometry.i
 
 # target to preprocess a source file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.i:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.i
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.i
+src/geometry.cpp.i:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.i
+.PHONY : src/geometry.cpp.i
 
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.s: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.s
+src/geometry.s: src/geometry.cpp.s
 
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.s
-
-# target to generate assembly for a file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.s:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.s
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.s
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.o: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.o
-
-# target to build an object file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.i: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.i
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.i
-
-# target to preprocess a source file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.i:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.i
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.i
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.s: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.s
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.s
+.PHONY : src/geometry.s
 
 # target to generate assembly for a file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.s:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.s
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.s
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.o: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.o
-
-# target to build an object file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.i: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.i
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.i
-
-# target to preprocess a source file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.i:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.i
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.i
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.s: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.s
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.s
-
-# target to generate assembly for a file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.s:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.s
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.s
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.o: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.o
-
-# target to build an object file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.i: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.i
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.i
-
-# target to preprocess a source file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.i:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.i
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.i
-
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.s: mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.s
-
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.s
-
-# target to generate assembly for a file
-mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.s:
-	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.s
-.PHONY : mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.s
+src/geometry.cpp.s:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.s
+.PHONY : src/geometry.cpp.s
 
 src/gpx-tests.o: src/gpx-tests.cpp.o
 
@@ -366,6 +231,141 @@ src/gpx-tests/timesVisited(string).cpp.s:
 	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make "CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.s"
 .PHONY : src/gpx-tests/timesVisited(string).cpp.s
 
+src/logs.o: src/logs.cpp.o
+
+.PHONY : src/logs.o
+
+# target to build an object file
+src/logs.cpp.o:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.o
+.PHONY : src/logs.cpp.o
+
+src/logs.i: src/logs.cpp.i
+
+.PHONY : src/logs.i
+
+# target to preprocess a source file
+src/logs.cpp.i:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.i
+.PHONY : src/logs.cpp.i
+
+src/logs.s: src/logs.cpp.s
+
+.PHONY : src/logs.s
+
+# target to generate assembly for a file
+src/logs.cpp.s:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.s
+.PHONY : src/logs.cpp.s
+
+src/position.o: src/position.cpp.o
+
+.PHONY : src/position.o
+
+# target to build an object file
+src/position.cpp.o:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/position.cpp.o
+.PHONY : src/position.cpp.o
+
+src/position.i: src/position.cpp.i
+
+.PHONY : src/position.i
+
+# target to preprocess a source file
+src/position.cpp.i:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/position.cpp.i
+.PHONY : src/position.cpp.i
+
+src/position.s: src/position.cpp.s
+
+.PHONY : src/position.s
+
+# target to generate assembly for a file
+src/position.cpp.s:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/position.cpp.s
+.PHONY : src/position.cpp.s
+
+src/route.o: src/route.cpp.o
+
+.PHONY : src/route.o
+
+# target to build an object file
+src/route.cpp.o:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/route.cpp.o
+.PHONY : src/route.cpp.o
+
+src/route.i: src/route.cpp.i
+
+.PHONY : src/route.i
+
+# target to preprocess a source file
+src/route.cpp.i:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/route.cpp.i
+.PHONY : src/route.cpp.i
+
+src/route.s: src/route.cpp.s
+
+.PHONY : src/route.s
+
+# target to generate assembly for a file
+src/route.cpp.s:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/route.cpp.s
+.PHONY : src/route.cpp.s
+
+src/xml/element.o: src/xml/element.cpp.o
+
+.PHONY : src/xml/element.o
+
+# target to build an object file
+src/xml/element.cpp.o:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.o
+.PHONY : src/xml/element.cpp.o
+
+src/xml/element.i: src/xml/element.cpp.i
+
+.PHONY : src/xml/element.i
+
+# target to preprocess a source file
+src/xml/element.cpp.i:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.i
+.PHONY : src/xml/element.cpp.i
+
+src/xml/element.s: src/xml/element.cpp.s
+
+.PHONY : src/xml/element.s
+
+# target to generate assembly for a file
+src/xml/element.cpp.s:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.s
+.PHONY : src/xml/element.cpp.s
+
+src/xml/parser.o: src/xml/parser.cpp.o
+
+.PHONY : src/xml/parser.o
+
+# target to build an object file
+src/xml/parser.cpp.o:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.o
+.PHONY : src/xml/parser.cpp.o
+
+src/xml/parser.i: src/xml/parser.cpp.i
+
+.PHONY : src/xml/parser.i
+
+# target to preprocess a source file
+src/xml/parser.cpp.i:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.i
+.PHONY : src/xml/parser.cpp.i
+
+src/xml/parser.s: src/xml/parser.cpp.s
+
+.PHONY : src/xml/parser.s
+
+# target to generate assembly for a file
+src/xml/parser.cpp.s:
+	$(MAKE) -f CMakeFiles/Boost_Tests_run.dir/build.make CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.s
+.PHONY : src/xml/parser.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -375,33 +375,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Boost_Tests_run"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.o"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.i"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.s"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.o"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.i"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.s"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.o"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.i"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.s"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.o"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.i"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.s"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.o"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.i"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.s"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.o"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.i"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.s"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.o"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.i"
-	@echo "... mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.s"
+	@echo "... src/earth.o"
+	@echo "... src/earth.i"
+	@echo "... src/earth.s"
+	@echo "... src/geometry.o"
+	@echo "... src/geometry.i"
+	@echo "... src/geometry.s"
 	@echo "... src/gpx-tests.o"
 	@echo "... src/gpx-tests.i"
 	@echo "... src/gpx-tests.s"
 	@echo "... src/gpx-tests/timesVisited(string).o"
 	@echo "... src/gpx-tests/timesVisited(string).i"
 	@echo "... src/gpx-tests/timesVisited(string).s"
+	@echo "... src/logs.o"
+	@echo "... src/logs.i"
+	@echo "... src/logs.s"
+	@echo "... src/position.o"
+	@echo "... src/position.i"
+	@echo "... src/position.s"
+	@echo "... src/route.o"
+	@echo "... src/route.i"
+	@echo "... src/route.s"
+	@echo "... src/xml/element.o"
+	@echo "... src/xml/element.i"
+	@echo "... src/xml/element.s"
+	@echo "... src/xml/parser.o"
+	@echo "... src/xml/parser.i"
+	@echo "... src/xml/parser.s"
 .PHONY : help
 
 
