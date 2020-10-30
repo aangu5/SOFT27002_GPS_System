@@ -37,7 +37,7 @@ const bool isFileName = false;
         const std::string gpxData =
                 R"(<gpx><rte><name>MyRoute</name><rtept lat="0" lon="0"><name>    My Position    </name></rtept></rte></gpx>)";
         Route route = Route(gpxData, isFileName);
-        BOOST_CHECK_EQUAL( route.timesVisited("     My Position   "), 1 );
+        BOOST_CHECK_EQUAL( route.timesVisited("My Position"), 1 );
     }
 
     /// A simple route with one point and checking invalid_argument is thrown when a blank string is passed in.

@@ -83,121 +83,121 @@ CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/gpx-tests/timesVisited(string).cpp" -o "CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.s"
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o: /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp
+CMakeFiles/Boost_Tests_run.dir/src/route.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
+CMakeFiles/Boost_Tests_run.dir/src/route.cpp.o: ../src/route.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Boost_Tests_run.dir/src/route.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/src/route.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/route.cpp
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp > CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.i
+CMakeFiles/Boost_Tests_run.dir/src/route.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/src/route.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/route.cpp > CMakeFiles/Boost_Tests_run.dir/src/route.cpp.i
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.s
+CMakeFiles/Boost_Tests_run.dir/src/route.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/src/route.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/route.cpp -o CMakeFiles/Boost_Tests_run.dir/src/route.cpp.s
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o: /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp
+CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
+CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.o: ../src/geometry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/geometry.cpp
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp > CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.i
+CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/geometry.cpp > CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.i
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.s
+CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/geometry.cpp -o CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.s
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o: /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp
+CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
+CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.o: ../src/xml/element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/xml/element.cpp
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp > CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.i
+CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/xml/element.cpp > CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.i
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.s
+CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/xml/element.cpp -o CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.s
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o: /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp
+CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
+CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.o: ../src/xml/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/xml/parser.cpp
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp > CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.i
+CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/xml/parser.cpp > CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.i
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.s
+CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/xml/parser.cpp -o CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.s
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o: /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp
+CMakeFiles/Boost_Tests_run.dir/src/position.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
+CMakeFiles/Boost_Tests_run.dir/src/position.cpp.o: ../src/position.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Boost_Tests_run.dir/src/position.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/src/position.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/position.cpp
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp > CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.i
+CMakeFiles/Boost_Tests_run.dir/src/position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/src/position.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/position.cpp > CMakeFiles/Boost_Tests_run.dir/src/position.cpp.i
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.s
+CMakeFiles/Boost_Tests_run.dir/src/position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/src/position.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/position.cpp -o CMakeFiles/Boost_Tests_run.dir/src/position.cpp.s
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o: /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp
+CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
+CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.o: ../src/earth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/earth.cpp
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp > CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.i
+CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/earth.cpp > CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.i
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.s
+CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/earth.cpp -o CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.s
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o: /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp
+CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.o: CMakeFiles/Boost_Tests_run.dir/flags.make
+CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.o: ../src/logs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.o -c /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/logs.cpp
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp > CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.i
+CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/logs.cpp > CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.i
 
-CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp -o CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.s
+CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src/logs.cpp -o CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.s
 
 # Object files for target Boost_Tests_run
 Boost_Tests_run_OBJECTS = \
 "CMakeFiles/Boost_Tests_run.dir/src/gpx-tests.cpp.o" \
 "CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o" \
-"CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o" \
-"CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o" \
-"CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o" \
-"CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o" \
-"CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o" \
-"CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o" \
-"CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o"
+"CMakeFiles/Boost_Tests_run.dir/src/route.cpp.o" \
+"CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.o" \
+"CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.o" \
+"CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.o" \
+"CMakeFiles/Boost_Tests_run.dir/src/position.cpp.o" \
+"CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.o" \
+"CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.o"
 
 # External object files for target Boost_Tests_run
 Boost_Tests_run_EXTERNAL_OBJECTS =
 
 Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/gpx-tests.cpp.o
 Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/gpx-tests/timesVisited(string).cpp.o
-Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/route.cpp.o
-Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/geometry.cpp.o
-Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/element.cpp.o
-Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-analysing_routes/src/xml/parser.cpp.o
-Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/position.cpp.o
-Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/earth.cpp.o
-Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/mnt/c/Users/Angus/CLionProjects/gps1/gps-t2/src/logs.cpp.o
+Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/route.cpp.o
+Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/geometry.cpp.o
+Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/xml/element.cpp.o
+Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/xml/parser.cpp.o
+Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/position.cpp.o
+Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/earth.cpp.o
+Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/src/logs.cpp.o
 Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/build.make
 Boost_Tests_run: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.71.0
 Boost_Tests_run: CMakeFiles/Boost_Tests_run.dir/link.txt
