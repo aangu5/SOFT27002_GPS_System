@@ -17,50 +17,92 @@ using namespace GPS;
 
 seconds Track::totalTime() const
 {
-    // Stub definition, TODO
-    return 0;
+    assert(! departed.empty());
+    return departed.back();
 }
 
 seconds Track::restingTime() const
 {
-    // Stub definition, TODO
-    return 0;
+    assert (arrived.size() == departed.size());
+    seconds total = 0;
+    for (unsigned int i = 0; i < arrived.size(); ++i)
+    {
+        total += departed[i] - arrived[i];
+    }
+    return total;
 }
 
 seconds Track::travellingTime() const
 {
-    // Stub definition, TODO
-    return 0;
+    return totalTime() - restingTime();
 }
 
 seconds Track::longestRest() const
 {
-    // Stub definition, TODO
-    return 0;
+    assert (arrived.size() == departed.size());
+    seconds maxRest = 0; // shortest possible rest
+    for (unsigned int i = 0; i < arrived.size(); ++i)
+    {
+        seconds restLength = departed[i] - arrived[i];
+        maxRest = std::max(maxRest,restLength);
+    }
+    return maxRest;
 }
 
 speed Track::maxSpeed() const
 {
-    // Stub definition, TODO
-    return 0;
+    assert( positions.size() == departed.size() && positions.size() == arrived.size() );
+    if (totalTime() == 0) throw std::domain_error("Cannot compute speed over a zero duration.");
+
+    speed ms = 0;
+    for (unsigned int i = 1; i < positions.size(); ++i)
+    {
+        metres deltaH = Position::distanceBetween(positions[i],positions[i-1]);
+        metres deltaV = positions[i].elevation() - positions[i-1].elevation();
+        metres distance = std::sqrt(deltaH*deltaH + deltaV*deltaV);
+        seconds time = arrived[i] - departed[i-1];
+        ms = std::max(ms,distance/time);
+    }
+    return ms;
 }
 
 speed Track::averageSpeed(bool includeRests) const
 {
-    // Stub definition, TODO
-    return 0;
+    seconds time = (includeRests ? totalTime() : travellingTime());
+    if (time == 0) throw std::domain_error("Cannot compute speed over a zero duration.");
+    else return totalLength() / time;
 }
 
 speed Track::maxRateOfAscent() const
 {
-    // Stub definition, TODO
-    return 0;
+    assert( positions.size() == departed.size() && positions.size() == arrived.size() );
+
+    if (totalTime() == 0) throw std::domain_error("Cannot compute rate of ascent over a zero duration.");
+
+    speed ms = 0;
+    for (unsigned int i = 1; i < positions.size(); ++i)
+    {
+        metres height = positions[i].elevation() - positions[i-1].elevation();
+        seconds time = arrived[i] - departed[i-1];
+        ms = std::max(ms,height/time);
+    }
+    return ms;
 }
 
 speed Track::maxRateOfDescent() const
 {
-    // Stub definition, TODO
-    return 0;
+    assert( positions.size() == departed.size() && positions.size() == arrived.size() );
+
+    if (totalTime() == 0) throw std::domain_error("Cannot compute rate of descent over a zero duration.");
+
+    speed ms = 0;
+    for (unsigned int i = 1; i < positions.size(); ++i)
+    {
+        metres height = positions[i-1].elevation() - positions[i].elevation();
+        seconds time = arrived[i] - departed[i-1];
+        ms = std::max(ms,height/time);
+    }
+    return ms;
 }
 
 Track::Track(std::string source, bool isFileName, metres granularity)
@@ -273,3 +315,4 @@ void Track::setGranularity(metres)
 {
     // TODO
 }
+
