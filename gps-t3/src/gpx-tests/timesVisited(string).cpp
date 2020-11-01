@@ -31,7 +31,7 @@ const bool isFileName = false;
         BOOST_CHECK_EQUAL( route.timesVisited("Your Position"), 0 );
     }
 
-    /// A simple route with one point and one name to check, with leading and trailing spaces to check the method matches the constructor.
+    /// A simple route with one point and one name to check, with leading and trailing spaces to check the constructor.
     BOOST_AUTO_TEST_CASE( singleton_route_with_spaces )
     {
         const std::string gpxData =

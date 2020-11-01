@@ -1,4 +1,4 @@
-digraph "/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src" {
+digraph "src" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];
@@ -6,10 +6,7 @@ digraph "/mnt/c/Users/Angus/CLionProjects/gps1/gps-t3/src" {
     graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
     dir_68267d1309a1af8e8297ef4c3efbcdba [shape=plaintext label="src"];
     dir_b78ea91c5ab502de0b8dda971d535a1b [shape=box label="gpx-tests" color="black" fillcolor="white" style="filled" URL="dir_b78ea91c5ab502de0b8dda971d535a1b.html"];
-    dir_fecc4094eafd04e39719336e3f18d69a [shape=box label="gridworld" color="black" fillcolor="white" style="filled" URL="dir_fecc4094eafd04e39719336e3f18d69a.html"];
-    dir_c43b215a2ade73e6562bd37d8a11c12a [shape=box label="xml" color="black" fillcolor="white" style="filled" URL="dir_c43b215a2ade73e6562bd37d8a11c12a.html"];
   }
-  dir_7f57b1e41c5acd0e859ae5f3a2b075a9 [shape=box label="headers" fillcolor="white" style="filled" color="red" URL="dir_7f57b1e41c5acd0e859ae5f3a2b075a9.html"];
-  dir_c43b215a2ade73e6562bd37d8a11c12a->dir_7f57b1e41c5acd0e859ae5f3a2b075a9 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000000.html"];
-  dir_fecc4094eafd04e39719336e3f18d69a->dir_7f57b1e41c5acd0e859ae5f3a2b075a9 [headlabel="11", labeldistance=1.5 headhref="dir_000005_000000.html"];
+  dir_7f57b1e41c5acd0e859ae5f3a2b075a9 [shape=box label="headers" URL="dir_7f57b1e41c5acd0e859ae5f3a2b075a9.html"];
+  dir_b78ea91c5ab502de0b8dda971d535a1b->dir_7f57b1e41c5acd0e859ae5f3a2b075a9 [headlabel="2", labeldistance=1.5 headhref="dir_000002_000001.html"];
 }

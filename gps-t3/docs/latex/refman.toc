@@ -8,80 +8,228 @@
 \contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
 \contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
 \contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS Namespace Reference}{9}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Class Documentation}{11}{chapter.6}%
-\contentsline {section}{\numberline {6.1}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Route Class Reference}{11}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Constructor \& Destructor Documentation}{12}{subsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.1.1}Route()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{12}{subsubsection.6.1.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.1.2}Route()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{12}{subsubsection.6.1.1.2}%
-\contentsline {subsection}{\numberline {6.1.2}Member Function Documentation}{12}{subsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.2.1}areSameLocation()}{12}{subsubsection.6.1.2.1}%
-\contentsline {subsubsection}{\numberline {6.1.2.2}containsCycles()}{12}{subsubsection.6.1.2.2}%
-\contentsline {subsubsection}{\numberline {6.1.2.3}findNameOf()}{13}{subsubsection.6.1.2.3}%
-\contentsline {subsubsection}{\numberline {6.1.2.4}findPosition()}{13}{subsubsection.6.1.2.4}%
-\contentsline {subsubsection}{\numberline {6.1.2.5}maxElevation()}{13}{subsubsection.6.1.2.5}%
-\contentsline {subsubsection}{\numberline {6.1.2.6}maxGradient()}{13}{subsubsection.6.1.2.6}%
-\contentsline {subsubsection}{\numberline {6.1.2.7}maxLatitude()}{13}{subsubsection.6.1.2.7}%
-\contentsline {subsubsection}{\numberline {6.1.2.8}maxLongitude()}{13}{subsubsection.6.1.2.8}%
-\contentsline {subsubsection}{\numberline {6.1.2.9}minElevation()}{13}{subsubsection.6.1.2.9}%
-\contentsline {subsubsection}{\numberline {6.1.2.10}minGradient()}{14}{subsubsection.6.1.2.10}%
-\contentsline {subsubsection}{\numberline {6.1.2.11}minLatitude()}{14}{subsubsection.6.1.2.11}%
-\contentsline {subsubsection}{\numberline {6.1.2.12}minLongitude()}{14}{subsubsection.6.1.2.12}%
-\contentsline {subsubsection}{\numberline {6.1.2.13}name()}{14}{subsubsection.6.1.2.13}%
-\contentsline {subsubsection}{\numberline {6.1.2.14}netHeightGain()}{14}{subsubsection.6.1.2.14}%
-\contentsline {subsubsection}{\numberline {6.1.2.15}netLength()}{14}{subsubsection.6.1.2.15}%
-\contentsline {subsubsection}{\numberline {6.1.2.16}numPositions()}{14}{subsubsection.6.1.2.16}%
-\contentsline {subsubsection}{\numberline {6.1.2.17}operator[]()}{14}{subsubsection.6.1.2.17}%
-\contentsline {subsubsection}{\numberline {6.1.2.18}setGranularity()}{15}{subsubsection.6.1.2.18}%
-\contentsline {subsubsection}{\numberline {6.1.2.19}steepestGradient()}{15}{subsubsection.6.1.2.19}%
-\contentsline {subsubsection}{\numberline {6.1.2.20}timesVisited()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{15}{subsubsection.6.1.2.20}%
-\contentsline {subsubsection}{\numberline {6.1.2.21}timesVisited()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{15}{subsubsection.6.1.2.21}%
-\contentsline {subsubsection}{\numberline {6.1.2.22}totalHeightGain()}{15}{subsubsection.6.1.2.22}%
-\contentsline {subsubsection}{\numberline {6.1.2.23}totalLength()}{15}{subsubsection.6.1.2.23}%
-\contentsline {subsection}{\numberline {6.1.3}Member Data Documentation}{15}{subsection.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.3.1}granularity}{16}{subsubsection.6.1.3.1}%
-\contentsline {subsubsection}{\numberline {6.1.3.2}positionNames}{16}{subsubsection.6.1.3.2}%
-\contentsline {subsubsection}{\numberline {6.1.3.3}positions}{16}{subsubsection.6.1.3.3}%
-\contentsline {subsubsection}{\numberline {6.1.3.4}routeLength}{16}{subsubsection.6.1.3.4}%
-\contentsline {subsubsection}{\numberline {6.1.3.5}routeName}{16}{subsubsection.6.1.3.5}%
-\contentsline {section}{\numberline {6.2}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Track Class Reference}{16}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Constructor \& Destructor Documentation}{17}{subsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.1.1}Track()}{17}{subsubsection.6.2.1.1}%
-\contentsline {subsection}{\numberline {6.2.2}Member Function Documentation}{17}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}averageSpeed()}{17}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}longestRest()}{17}{subsubsection.6.2.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.3}maxRateOfAscent()}{18}{subsubsection.6.2.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.2.4}maxRateOfDescent()}{18}{subsubsection.6.2.2.4}%
-\contentsline {subsubsection}{\numberline {6.2.2.5}maxSpeed()}{18}{subsubsection.6.2.2.5}%
-\contentsline {subsubsection}{\numberline {6.2.2.6}restingTime()}{18}{subsubsection.6.2.2.6}%
-\contentsline {subsubsection}{\numberline {6.2.2.7}setGranularity()}{18}{subsubsection.6.2.2.7}%
-\contentsline {subsubsection}{\numberline {6.2.2.8}totalTime()}{18}{subsubsection.6.2.2.8}%
-\contentsline {subsubsection}{\numberline {6.2.2.9}travellingTime()}{18}{subsubsection.6.2.2.9}%
-\contentsline {subsection}{\numberline {6.2.3}Member Data Documentation}{18}{subsection.6.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.3.1}arrived}{19}{subsubsection.6.2.3.1}%
-\contentsline {subsubsection}{\numberline {6.2.3.2}departed}{19}{subsubsection.6.2.3.2}%
-\contentsline {chapter}{\numberline {7}File Documentation}{21}{chapter.7}%
-\contentsline {section}{\numberline {7.1}gpx-\/tests.cpp File Reference}{21}{section.7.1}%
-\contentsline {section}{\numberline {7.2}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{21}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Function Documentation}{21}{subsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.1.1}main()}{21}{subsubsection.7.2.1.1}%
-\contentsline {subsubsection}{\numberline {7.2.1.2}testRoute()}{22}{subsubsection.7.2.1.2}%
-\contentsline {subsubsection}{\numberline {7.2.1.3}testTrack()}{22}{subsubsection.7.2.1.3}%
-\contentsline {section}{\numberline {7.3}route.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{22}{section.7.3}%
-\contentsline {section}{\numberline {7.4}route.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{22}{section.7.4}%
-\contentsline {section}{\numberline {7.5}times\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Visited(string).cpp File Reference}{23}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Function Documentation}{23}{subsection.7.5.1}%
-\contentsline {subsubsection}{\numberline {7.5.1.1}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [1/9]}}{23}{subsubsection.7.5.1.1}%
-\contentsline {subsubsection}{\numberline {7.5.1.2}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [2/9]}}{24}{subsubsection.7.5.1.2}%
-\contentsline {subsubsection}{\numberline {7.5.1.3}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [3/9]}}{24}{subsubsection.7.5.1.3}%
-\contentsline {subsubsection}{\numberline {7.5.1.4}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [4/9]}}{24}{subsubsection.7.5.1.4}%
-\contentsline {subsubsection}{\numberline {7.5.1.5}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [5/9]}}{24}{subsubsection.7.5.1.5}%
-\contentsline {subsubsection}{\numberline {7.5.1.6}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [6/9]}}{24}{subsubsection.7.5.1.6}%
-\contentsline {subsubsection}{\numberline {7.5.1.7}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [7/9]}}{24}{subsubsection.7.5.1.7}%
-\contentsline {subsubsection}{\numberline {7.5.1.8}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [8/9]}}{25}{subsubsection.7.5.1.8}%
-\contentsline {subsubsection}{\numberline {7.5.1.9}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [9/9]}}{25}{subsubsection.7.5.1.9}%
-\contentsline {subsection}{\numberline {7.5.2}Variable Documentation}{25}{subsection.7.5.2}%
-\contentsline {subsubsection}{\numberline {7.5.2.1}isFileName}{25}{subsubsection.7.5.2.1}%
-\contentsline {section}{\numberline {7.6}track.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{25}{section.7.6}%
-\contentsline {section}{\numberline {7.7}track.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{25}{section.7.7}%
-\contentsline {chapter}{Index}{27}{section*.15}%
+\contentsline {section}{\numberline {5.1}boost Namespace Reference}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}boost\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tools Namespace Reference}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}boost\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tools\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::tt\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}detail Namespace Reference}{9}{section.5.3}%
+\contentsline {section}{\numberline {5.4}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS Namespace Reference}{9}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Typedef Documentation}{10}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}degrees}{10}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}metres}{10}{subsubsection.5.4.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.1.3}radians}{10}{subsubsection.5.4.1.3}%
+\contentsline {subsubsection}{\numberline {5.4.1.4}seconds}{11}{subsubsection.5.4.1.4}%
+\contentsline {subsubsection}{\numberline {5.4.1.5}speed}{11}{subsubsection.5.4.1.5}%
+\contentsline {subsection}{\numberline {5.4.2}Function Documentation}{11}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}ddmTodd()}{11}{subsubsection.5.4.2.1}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}degToRad()}{11}{subsubsection.5.4.2.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.3}normaliseDeg()}{11}{subsubsection.5.4.2.3}%
+\contentsline {subsubsection}{\numberline {5.4.2.4}radToDeg()}{11}{subsubsection.5.4.2.4}%
+\contentsline {subsubsection}{\numberline {5.4.2.5}sinSqr()}{11}{subsubsection.5.4.2.5}%
+\contentsline {subsection}{\numberline {5.4.3}Variable Documentation}{12}{subsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {5.4.3.1}antiMeridianLongitude}{12}{subsubsection.5.4.3.1}%
+\contentsline {subsubsection}{\numberline {5.4.3.2}fullRotation}{12}{subsubsection.5.4.3.2}%
+\contentsline {subsubsection}{\numberline {5.4.3.3}halfRotation}{12}{subsubsection.5.4.3.3}%
+\contentsline {subsubsection}{\numberline {5.4.3.4}pi}{12}{subsubsection.5.4.3.4}%
+\contentsline {subsubsection}{\numberline {5.4.3.5}poleLatitude}{12}{subsubsection.5.4.3.5}%
+\contentsline {section}{\numberline {5.5}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Earth Namespace Reference}{12}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Function Documentation}{13}{subsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.1.1}latitudeSubtendedBy()}{13}{subsubsection.5.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.5.1.2}longitudeSubtendedBy()}{13}{subsubsection.5.5.1.2}%
+\contentsline {subsection}{\numberline {5.5.2}Variable Documentation}{13}{subsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.1}CityCampus}{13}{subsubsection.5.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.5.2.2}CliftonCampus}{13}{subsubsection.5.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.3}EquatorialAntiMeridian}{14}{subsubsection.5.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.5.2.4}equatorialCircumference}{14}{subsubsection.5.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.5.2.5}EquatorialMeridian}{14}{subsubsection.5.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.5.2.6}meanRadius}{14}{subsubsection.5.5.2.6}%
+\contentsline {subsubsection}{\numberline {5.5.2.7}NorthPole}{14}{subsubsection.5.5.2.7}%
+\contentsline {subsubsection}{\numberline {5.5.2.8}polarCircumference}{14}{subsubsection.5.5.2.8}%
+\contentsline {subsubsection}{\numberline {5.5.2.9}Pontianak}{14}{subsubsection.5.5.2.9}%
+\contentsline {section}{\numberline {5.6}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files Namespace Reference}{14}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Variable Documentation}{15}{subsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.1.1}GPXRoutesDir}{15}{subsubsection.5.6.1.1}%
+\contentsline {subsubsection}{\numberline {5.6.1.2}GPXTracksDir}{15}{subsubsection.5.6.1.2}%
+\contentsline {subsubsection}{\numberline {5.6.1.3}logsDir}{15}{subsubsection.5.6.1.3}%
+\contentsline {subsubsection}{\numberline {5.6.1.4}NMEALogsDir}{15}{subsubsection.5.6.1.4}%
+\contentsline {section}{\numberline {5.7}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EA Namespace Reference}{15}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Typedef Documentation}{15}{subsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}Route}{16}{subsubsection.5.7.1.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.2}SentenceData}{16}{subsubsection.5.7.1.2}%
+\contentsline {subsection}{\numberline {5.7.2}Function Documentation}{16}{subsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.1}extractSentenceData()}{16}{subsubsection.5.7.2.1}%
+\contentsline {subsubsection}{\numberline {5.7.2.2}hasValidChecksum()}{16}{subsubsection.5.7.2.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.3}isWellFormedSentence()}{16}{subsubsection.5.7.2.3}%
+\contentsline {subsubsection}{\numberline {5.7.2.4}positionFromSentenceData()}{16}{subsubsection.5.7.2.4}%
+\contentsline {subsubsection}{\numberline {5.7.2.5}routeFromLog()}{16}{subsubsection.5.7.2.5}%
+\contentsline {chapter}{\numberline {6}Class Documentation}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Position Class Reference}{17}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Constructor \& Destructor Documentation}{17}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}Position()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{17}{subsubsection.6.1.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.2}Position()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{18}{subsubsection.6.1.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.1.3}Position()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{18}{subsubsection.6.1.1.3}%
+\contentsline {subsection}{\numberline {6.1.2}Member Function Documentation}{18}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}distanceBetween()}{18}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}elevation()}{18}{subsubsection.6.1.2.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.3}latitude()}{18}{subsubsection.6.1.2.3}%
+\contentsline {subsubsection}{\numberline {6.1.2.4}longitude()}{18}{subsubsection.6.1.2.4}%
+\contentsline {subsubsection}{\numberline {6.1.2.5}toString()}{19}{subsubsection.6.1.2.5}%
+\contentsline {section}{\numberline {6.2}boost\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tools\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::tt\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}detail\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::print\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}log\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}value$<$ std\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::vector$<$ std\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::string $>$ $>$ Struct Reference}{19}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Member Function Documentation}{19}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}operator()()}{19}{subsubsection.6.2.1.1}%
+\contentsline {section}{\numberline {6.3}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Route Class Reference}{19}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Constructor \& Destructor Documentation}{20}{subsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.1.1}Route()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{20}{subsubsection.6.3.1.1}%
+\contentsline {subsubsection}{\numberline {6.3.1.2}Route()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{21}{subsubsection.6.3.1.2}%
+\contentsline {subsection}{\numberline {6.3.2}Member Function Documentation}{21}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}areSameLocation()}{21}{subsubsection.6.3.2.1}%
+\contentsline {subsubsection}{\numberline {6.3.2.2}containsCycles()}{21}{subsubsection.6.3.2.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.3}findNameOf()}{21}{subsubsection.6.3.2.3}%
+\contentsline {subsubsection}{\numberline {6.3.2.4}findPosition()}{21}{subsubsection.6.3.2.4}%
+\contentsline {subsubsection}{\numberline {6.3.2.5}maxElevation()}{21}{subsubsection.6.3.2.5}%
+\contentsline {subsubsection}{\numberline {6.3.2.6}maxGradient()}{21}{subsubsection.6.3.2.6}%
+\contentsline {subsubsection}{\numberline {6.3.2.7}maxLatitude()}{22}{subsubsection.6.3.2.7}%
+\contentsline {subsubsection}{\numberline {6.3.2.8}maxLongitude()}{22}{subsubsection.6.3.2.8}%
+\contentsline {subsubsection}{\numberline {6.3.2.9}minElevation()}{22}{subsubsection.6.3.2.9}%
+\contentsline {subsubsection}{\numberline {6.3.2.10}minGradient()}{22}{subsubsection.6.3.2.10}%
+\contentsline {subsubsection}{\numberline {6.3.2.11}minLatitude()}{22}{subsubsection.6.3.2.11}%
+\contentsline {subsubsection}{\numberline {6.3.2.12}minLongitude()}{22}{subsubsection.6.3.2.12}%
+\contentsline {subsubsection}{\numberline {6.3.2.13}name()}{22}{subsubsection.6.3.2.13}%
+\contentsline {subsubsection}{\numberline {6.3.2.14}netHeightGain()}{22}{subsubsection.6.3.2.14}%
+\contentsline {subsubsection}{\numberline {6.3.2.15}netLength()}{23}{subsubsection.6.3.2.15}%
+\contentsline {subsubsection}{\numberline {6.3.2.16}numPositions()}{23}{subsubsection.6.3.2.16}%
+\contentsline {subsubsection}{\numberline {6.3.2.17}operator[]()}{23}{subsubsection.6.3.2.17}%
+\contentsline {subsubsection}{\numberline {6.3.2.18}setGranularity()}{23}{subsubsection.6.3.2.18}%
+\contentsline {subsubsection}{\numberline {6.3.2.19}steepestGradient()}{23}{subsubsection.6.3.2.19}%
+\contentsline {subsubsection}{\numberline {6.3.2.20}timesVisited()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{23}{subsubsection.6.3.2.20}%
+\contentsline {subsubsection}{\numberline {6.3.2.21}timesVisited()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{23}{subsubsection.6.3.2.21}%
+\contentsline {subsubsection}{\numberline {6.3.2.22}totalHeightGain()}{24}{subsubsection.6.3.2.22}%
+\contentsline {subsubsection}{\numberline {6.3.2.23}totalLength()}{24}{subsubsection.6.3.2.23}%
+\contentsline {subsection}{\numberline {6.3.3}Member Data Documentation}{24}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}granularity}{24}{subsubsection.6.3.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.3.2}positionNames}{24}{subsubsection.6.3.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3.3}positions}{24}{subsubsection.6.3.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.4}routeLength}{24}{subsubsection.6.3.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.3.5}routeName}{24}{subsubsection.6.3.3.5}%
+\contentsline {section}{\numberline {6.4}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Track Class Reference}{25}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Constructor \& Destructor Documentation}{25}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}Track()}{25}{subsubsection.6.4.1.1}%
+\contentsline {subsection}{\numberline {6.4.2}Member Function Documentation}{25}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}averageSpeed()}{26}{subsubsection.6.4.2.1}%
+\contentsline {subsubsection}{\numberline {6.4.2.2}longestRest()}{26}{subsubsection.6.4.2.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.3}maxRateOfAscent()}{26}{subsubsection.6.4.2.3}%
+\contentsline {subsubsection}{\numberline {6.4.2.4}maxRateOfDescent()}{26}{subsubsection.6.4.2.4}%
+\contentsline {subsubsection}{\numberline {6.4.2.5}maxSpeed()}{26}{subsubsection.6.4.2.5}%
+\contentsline {subsubsection}{\numberline {6.4.2.6}restingTime()}{26}{subsubsection.6.4.2.6}%
+\contentsline {subsubsection}{\numberline {6.4.2.7}setGranularity()}{26}{subsubsection.6.4.2.7}%
+\contentsline {subsubsection}{\numberline {6.4.2.8}totalTime()}{27}{subsubsection.6.4.2.8}%
+\contentsline {subsubsection}{\numberline {6.4.2.9}travellingTime()}{27}{subsubsection.6.4.2.9}%
+\contentsline {subsection}{\numberline {6.4.3}Member Data Documentation}{27}{subsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}arrived}{27}{subsubsection.6.4.3.1}%
+\contentsline {subsubsection}{\numberline {6.4.3.2}departed}{27}{subsubsection.6.4.3.2}%
+\contentsline {chapter}{\numberline {7}File Documentation}{29}{chapter.7}%
+\contentsline {section}{\numberline {7.1}earth.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{29}{section.7.1}%
+\contentsline {section}{\numberline {7.2}earth.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{29}{section.7.2}%
+\contentsline {section}{\numberline {7.3}geometry.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{30}{section.7.3}%
+\contentsline {section}{\numberline {7.4}geometry.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{30}{section.7.4}%
+\contentsline {section}{\numberline {7.5}gpx-\/tests.cpp File Reference}{30}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Macro Definition Documentation}{31}{subsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.1.1}BOOST\_TEST\_DYN\_LINK}{31}{subsubsection.7.5.1.1}%
+\contentsline {subsubsection}{\numberline {7.5.1.2}BOOST\_TEST\_MODULE}{31}{subsubsection.7.5.1.2}%
+\contentsline {section}{\numberline {7.6}logs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{31}{section.7.6}%
+\contentsline {section}{\numberline {7.7}logs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{31}{section.7.7}%
+\contentsline {section}{\numberline {7.8}nmea-\/tests.cpp File Reference}{32}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}Macro Definition Documentation}{34}{subsection.7.8.1}%
+\contentsline {subsubsection}{\numberline {7.8.1.1}BOOST\_TEST\_DYN\_LINK}{34}{subsubsection.7.8.1.1}%
+\contentsline {subsubsection}{\numberline {7.8.1.2}BOOST\_TEST\_MODULE}{34}{subsubsection.7.8.1.2}%
+\contentsline {subsection}{\numberline {7.8.2}Function Documentation}{34}{subsection.7.8.2}%
+\contentsline {subsubsection}{\numberline {7.8.2.1}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [1/61]}}{34}{subsubsection.7.8.2.1}%
+\contentsline {subsubsection}{\numberline {7.8.2.2}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [2/61]}}{34}{subsubsection.7.8.2.2}%
+\contentsline {subsubsection}{\numberline {7.8.2.3}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [3/61]}}{35}{subsubsection.7.8.2.3}%
+\contentsline {subsubsection}{\numberline {7.8.2.4}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [4/61]}}{35}{subsubsection.7.8.2.4}%
+\contentsline {subsubsection}{\numberline {7.8.2.5}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [5/61]}}{35}{subsubsection.7.8.2.5}%
+\contentsline {subsubsection}{\numberline {7.8.2.6}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [6/61]}}{35}{subsubsection.7.8.2.6}%
+\contentsline {subsubsection}{\numberline {7.8.2.7}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [7/61]}}{35}{subsubsection.7.8.2.7}%
+\contentsline {subsubsection}{\numberline {7.8.2.8}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [8/61]}}{35}{subsubsection.7.8.2.8}%
+\contentsline {subsubsection}{\numberline {7.8.2.9}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [9/61]}}{35}{subsubsection.7.8.2.9}%
+\contentsline {subsubsection}{\numberline {7.8.2.10}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [10/61]}}{36}{subsubsection.7.8.2.10}%
+\contentsline {subsubsection}{\numberline {7.8.2.11}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [11/61]}}{36}{subsubsection.7.8.2.11}%
+\contentsline {subsubsection}{\numberline {7.8.2.12}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [12/61]}}{36}{subsubsection.7.8.2.12}%
+\contentsline {subsubsection}{\numberline {7.8.2.13}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [13/61]}}{36}{subsubsection.7.8.2.13}%
+\contentsline {subsubsection}{\numberline {7.8.2.14}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [14/61]}}{36}{subsubsection.7.8.2.14}%
+\contentsline {subsubsection}{\numberline {7.8.2.15}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [15/61]}}{36}{subsubsection.7.8.2.15}%
+\contentsline {subsubsection}{\numberline {7.8.2.16}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [16/61]}}{36}{subsubsection.7.8.2.16}%
+\contentsline {subsubsection}{\numberline {7.8.2.17}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [17/61]}}{37}{subsubsection.7.8.2.17}%
+\contentsline {subsubsection}{\numberline {7.8.2.18}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [18/61]}}{37}{subsubsection.7.8.2.18}%
+\contentsline {subsubsection}{\numberline {7.8.2.19}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [19/61]}}{37}{subsubsection.7.8.2.19}%
+\contentsline {subsubsection}{\numberline {7.8.2.20}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [20/61]}}{37}{subsubsection.7.8.2.20}%
+\contentsline {subsubsection}{\numberline {7.8.2.21}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [21/61]}}{37}{subsubsection.7.8.2.21}%
+\contentsline {subsubsection}{\numberline {7.8.2.22}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [22/61]}}{37}{subsubsection.7.8.2.22}%
+\contentsline {subsubsection}{\numberline {7.8.2.23}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [23/61]}}{37}{subsubsection.7.8.2.23}%
+\contentsline {subsubsection}{\numberline {7.8.2.24}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [24/61]}}{38}{subsubsection.7.8.2.24}%
+\contentsline {subsubsection}{\numberline {7.8.2.25}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [25/61]}}{38}{subsubsection.7.8.2.25}%
+\contentsline {subsubsection}{\numberline {7.8.2.26}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [26/61]}}{38}{subsubsection.7.8.2.26}%
+\contentsline {subsubsection}{\numberline {7.8.2.27}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [27/61]}}{38}{subsubsection.7.8.2.27}%
+\contentsline {subsubsection}{\numberline {7.8.2.28}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [28/61]}}{38}{subsubsection.7.8.2.28}%
+\contentsline {subsubsection}{\numberline {7.8.2.29}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [29/61]}}{38}{subsubsection.7.8.2.29}%
+\contentsline {subsubsection}{\numberline {7.8.2.30}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [30/61]}}{38}{subsubsection.7.8.2.30}%
+\contentsline {subsubsection}{\numberline {7.8.2.31}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [31/61]}}{39}{subsubsection.7.8.2.31}%
+\contentsline {subsubsection}{\numberline {7.8.2.32}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [32/61]}}{39}{subsubsection.7.8.2.32}%
+\contentsline {subsubsection}{\numberline {7.8.2.33}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [33/61]}}{39}{subsubsection.7.8.2.33}%
+\contentsline {subsubsection}{\numberline {7.8.2.34}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [34/61]}}{39}{subsubsection.7.8.2.34}%
+\contentsline {subsubsection}{\numberline {7.8.2.35}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [35/61]}}{39}{subsubsection.7.8.2.35}%
+\contentsline {subsubsection}{\numberline {7.8.2.36}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [36/61]}}{39}{subsubsection.7.8.2.36}%
+\contentsline {subsubsection}{\numberline {7.8.2.37}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [37/61]}}{39}{subsubsection.7.8.2.37}%
+\contentsline {subsubsection}{\numberline {7.8.2.38}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [38/61]}}{40}{subsubsection.7.8.2.38}%
+\contentsline {subsubsection}{\numberline {7.8.2.39}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [39/61]}}{40}{subsubsection.7.8.2.39}%
+\contentsline {subsubsection}{\numberline {7.8.2.40}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [40/61]}}{40}{subsubsection.7.8.2.40}%
+\contentsline {subsubsection}{\numberline {7.8.2.41}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [41/61]}}{40}{subsubsection.7.8.2.41}%
+\contentsline {subsubsection}{\numberline {7.8.2.42}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [42/61]}}{40}{subsubsection.7.8.2.42}%
+\contentsline {subsubsection}{\numberline {7.8.2.43}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [43/61]}}{40}{subsubsection.7.8.2.43}%
+\contentsline {subsubsection}{\numberline {7.8.2.44}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [44/61]}}{40}{subsubsection.7.8.2.44}%
+\contentsline {subsubsection}{\numberline {7.8.2.45}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [45/61]}}{41}{subsubsection.7.8.2.45}%
+\contentsline {subsubsection}{\numberline {7.8.2.46}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [46/61]}}{41}{subsubsection.7.8.2.46}%
+\contentsline {subsubsection}{\numberline {7.8.2.47}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [47/61]}}{41}{subsubsection.7.8.2.47}%
+\contentsline {subsubsection}{\numberline {7.8.2.48}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [48/61]}}{41}{subsubsection.7.8.2.48}%
+\contentsline {subsubsection}{\numberline {7.8.2.49}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [49/61]}}{41}{subsubsection.7.8.2.49}%
+\contentsline {subsubsection}{\numberline {7.8.2.50}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [50/61]}}{41}{subsubsection.7.8.2.50}%
+\contentsline {subsubsection}{\numberline {7.8.2.51}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [51/61]}}{41}{subsubsection.7.8.2.51}%
+\contentsline {subsubsection}{\numberline {7.8.2.52}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [52/61]}}{42}{subsubsection.7.8.2.52}%
+\contentsline {subsubsection}{\numberline {7.8.2.53}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [53/61]}}{42}{subsubsection.7.8.2.53}%
+\contentsline {subsubsection}{\numberline {7.8.2.54}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [54/61]}}{42}{subsubsection.7.8.2.54}%
+\contentsline {subsubsection}{\numberline {7.8.2.55}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [55/61]}}{42}{subsubsection.7.8.2.55}%
+\contentsline {subsubsection}{\numberline {7.8.2.56}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [56/61]}}{42}{subsubsection.7.8.2.56}%
+\contentsline {subsubsection}{\numberline {7.8.2.57}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [57/61]}}{42}{subsubsection.7.8.2.57}%
+\contentsline {subsubsection}{\numberline {7.8.2.58}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [58/61]}}{42}{subsubsection.7.8.2.58}%
+\contentsline {subsubsection}{\numberline {7.8.2.59}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [59/61]}}{43}{subsubsection.7.8.2.59}%
+\contentsline {subsubsection}{\numberline {7.8.2.60}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [60/61]}}{43}{subsubsection.7.8.2.60}%
+\contentsline {subsubsection}{\numberline {7.8.2.61}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [61/61]}}{43}{subsubsection.7.8.2.61}%
+\contentsline {subsection}{\numberline {7.8.3}Variable Documentation}{43}{subsection.7.8.3}%
+\contentsline {subsubsection}{\numberline {7.8.3.1}epsilon}{43}{subsubsection.7.8.3.1}%
+\contentsline {subsubsection}{\numberline {7.8.3.2}gllPos}{43}{subsubsection.7.8.3.2}%
+\contentsline {subsubsection}{\numberline {7.8.3.3}percentageAccuracy}{43}{subsubsection.7.8.3.3}%
+\contentsline {subsubsection}{\numberline {7.8.3.4}rmcPos}{43}{subsubsection.7.8.3.4}%
+\contentsline {subsubsection}{\numberline {7.8.3.5}validGLLSentence}{44}{subsubsection.7.8.3.5}%
+\contentsline {subsubsection}{\numberline {7.8.3.6}validMSSSentence}{44}{subsubsection.7.8.3.6}%
+\contentsline {subsubsection}{\numberline {7.8.3.7}validRMCSentence}{44}{subsubsection.7.8.3.7}%
+\contentsline {section}{\numberline {7.9}parse\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{44}{section.7.9}%
+\contentsline {section}{\numberline {7.10}parse\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{44}{section.7.10}%
+\contentsline {section}{\numberline {7.11}position.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{45}{section.7.11}%
+\contentsline {section}{\numberline {7.12}position.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{45}{section.7.12}%
+\contentsline {section}{\numberline {7.13}route.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{46}{section.7.13}%
+\contentsline {section}{\numberline {7.14}route.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{46}{section.7.14}%
+\contentsline {section}{\numberline {7.15}times\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Visited(string).cpp File Reference}{46}{section.7.15}%
+\contentsline {subsection}{\numberline {7.15.1}Function Documentation}{47}{subsection.7.15.1}%
+\contentsline {subsubsection}{\numberline {7.15.1.1}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [1/9]}}{47}{subsubsection.7.15.1.1}%
+\contentsline {subsubsection}{\numberline {7.15.1.2}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [2/9]}}{47}{subsubsection.7.15.1.2}%
+\contentsline {subsubsection}{\numberline {7.15.1.3}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [3/9]}}{48}{subsubsection.7.15.1.3}%
+\contentsline {subsubsection}{\numberline {7.15.1.4}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [4/9]}}{48}{subsubsection.7.15.1.4}%
+\contentsline {subsubsection}{\numberline {7.15.1.5}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [5/9]}}{48}{subsubsection.7.15.1.5}%
+\contentsline {subsubsection}{\numberline {7.15.1.6}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [6/9]}}{48}{subsubsection.7.15.1.6}%
+\contentsline {subsubsection}{\numberline {7.15.1.7}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [7/9]}}{48}{subsubsection.7.15.1.7}%
+\contentsline {subsubsection}{\numberline {7.15.1.8}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [8/9]}}{48}{subsubsection.7.15.1.8}%
+\contentsline {subsubsection}{\numberline {7.15.1.9}BOOST\_AUTO\_TEST\_CASE()\hspace {0.1cm}{\footnotesize \ttfamily [9/9]}}{49}{subsubsection.7.15.1.9}%
+\contentsline {subsection}{\numberline {7.15.2}Variable Documentation}{49}{subsection.7.15.2}%
+\contentsline {subsubsection}{\numberline {7.15.2.1}isFileName}{49}{subsubsection.7.15.2.1}%
+\contentsline {section}{\numberline {7.16}track.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{49}{section.7.16}%
+\contentsline {section}{\numberline {7.17}track.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{49}{section.7.17}%
+\contentsline {section}{\numberline {7.18}types.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{50}{section.7.18}%
+\contentsline {chapter}{Index}{51}{section*.58}%

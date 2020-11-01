@@ -23,19 +23,117 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="">
+    <list default="true" id="c168e292-080c-4e52-a0d4-4583eaf4f4d6" name="Default Changelist" comment="Updated to latest version of GPS repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Boost_Tests_run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/deliverable3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/deliverable3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/cmake-build-debug/CMakeFiles/Boost_Tests_run.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/directoryStructure.md" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/directoryStructure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/Doxyfile" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/Doxyfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/class_g_p_s_1_1_route-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/class_g_p_s_1_1_route-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/class_g_p_s_1_1_route.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/class_g_p_s_1_1_route.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/class_g_p_s_1_1_track-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/class_g_p_s_1_1_track-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/class_g_p_s_1_1_track.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/class_g_p_s_1_1_track.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/dir_000004_000001.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/dir_000004_000001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/dir_2dcdd076a38b17e9ccd456f294c524a7.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/dir_2dcdd076a38b17e9ccd456f294c524a7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/dir_2dcdd076a38b17e9ccd456f294c524a7_dep.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/dir_2dcdd076a38b17e9ccd456f294c524a7_dep.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/dir_51b54a82e57331a0d644dd1d151964e4_dep.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/dir_51b54a82e57331a0d644dd1d151964e4_dep.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/dir_7e632518461741a698ec00bea2af8f0e.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/dir_7e632518461741a698ec00bea2af8f0e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/dir_7e632518461741a698ec00bea2af8f0e_dep.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/dir_7e632518461741a698ec00bea2af8f0e_dep.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/dir_8d589214856980af122d0770d4fd552b.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/dir_8d589214856980af122d0770d4fd552b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/dir_ed8ff92b09fa8e920f169067f0da0da8_dep.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/dir_ed8ff92b09fa8e920f169067f0da0da8_dep.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/functions_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/functions_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/functions_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/functions_vars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/globals.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/globals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/globals_defs.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/globals_defs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/globals_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/globals_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/globals_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/globals_vars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/gpx-tests_8cpp.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/gpx-tests_8cpp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/inherit_graph_0.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/inherit_graph_0.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/inherits.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/inherits.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/main_8cpp.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/main_8cpp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/main_8cpp__incl.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/main_8cpp__incl.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/menudata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/namespace_g_p_s.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/namespace_g_p_s.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/namespacemembers.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/namespacemembers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/namespacemembers_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/namespacemembers_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/namespaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/namespaces.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/all_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/all_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/classes_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/classes_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/classes_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/classes_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/defines_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/defines_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/files_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/files_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/files_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/files_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/files_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/files_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/files_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/files_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/functions_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/namespaces_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/namespaces_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/namespaces_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/namespaces_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/searchdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/searchdata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/typedefs_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/typedefs_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/search/variables_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/times_visited_07string_08_8cpp.html" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/times_visited_07string_08_8cpp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/html/times_visited_07string_08_8cpp__incl.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/html/times_visited_07string_08_8cpp__incl.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/annotated.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/annotated.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/class_g_p_s_1_1_route.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/class_g_p_s_1_1_route.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/class_g_p_s_1_1_track.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/class_g_p_s_1_1_track.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/dir_2dcdd076a38b17e9ccd456f294c524a7.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/dir_2dcdd076a38b17e9ccd456f294c524a7.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/dir_2dcdd076a38b17e9ccd456f294c524a7_dep.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/dir_2dcdd076a38b17e9ccd456f294c524a7_dep.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/dir_51b54a82e57331a0d644dd1d151964e4_dep.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/dir_51b54a82e57331a0d644dd1d151964e4_dep.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/dir_7e632518461741a698ec00bea2af8f0e.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/dir_7e632518461741a698ec00bea2af8f0e.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/dir_7e632518461741a698ec00bea2af8f0e_dep.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/dir_7e632518461741a698ec00bea2af8f0e_dep.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/dir_8d589214856980af122d0770d4fd552b.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/dir_8d589214856980af122d0770d4fd552b.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/dir_ed8ff92b09fa8e920f169067f0da0da8_dep.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/dir_ed8ff92b09fa8e920f169067f0da0da8_dep.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/files.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/files.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/gpx-tests_8cpp.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/gpx-tests_8cpp.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/hierarchy.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/hierarchy.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/main_8cpp__incl.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/main_8cpp__incl.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/namespace_g_p_s.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/namespace_g_p_s.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/namespaces.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/namespaces.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.aux" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.idx" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.ilg" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.ilg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.ind" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.ind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.log" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.out" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/refman.toc" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/refman.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/times_visited_07string_08_8cpp.tex" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/times_visited_07string_08_8cpp.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gps-t3/docs/latex/times_visited_07string_08_8cpp__incl.dot" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/docs/latex/times_visited_07string_08_8cpp__incl.dot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gps-t3/src/gpx-tests/timesVisited(string).cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +144,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -79,12 +176,7 @@
       <recent name="C:\Users\Angus\CLionProjects\gps1\gps-t3\docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Boost.Test.Boost_Tests_run">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Makefile.Makefile">
     <configuration name="Boost_Tests_run" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="deliverable3" TARGET_NAME="Boost_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="deliverable3" RUN_TARGET_NAME="Boost_Tests_run" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -114,14 +206,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Makefile" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/gps-t3/Makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Boost.Test.Boost_Tests_run" />
       <item itemvalue="Boost.Test.one_name_many_positions_and_many_visits" />
       <item itemvalue="Boost.Test.one_position_many_names" />
       <item itemvalue="Boost.Test.one_position_many_visits" />
+      <item itemvalue="Makefile.Makefile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile.Makefile" />
         <item itemvalue="Boost.Test.one_position_many_names" />
         <item itemvalue="Boost.Test.one_name_many_positions_and_many_visits" />
         <item itemvalue="Boost.Test.one_position_many_visits" />
@@ -139,6 +239,7 @@
       <workItem from="1603484179940" duration="6726000" />
       <workItem from="1603541251713" duration="5307000" />
       <workItem from="1603623759312" duration="3972000" />
+      <workItem from="1604229386647" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Test Suite setup">
       <created>1603485287636</created>
@@ -287,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604076911297</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Updated to latest version of GPS repository">
+      <created>1604078353528</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604078353528</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +443,8 @@
     <MESSAGE value="DO NOT COMMIT" />
     <MESSAGE value="Added two_consecutive_visits to test cases" />
     <MESSAGE value="Added Doxygen related files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Doxygen related files" />
+    <MESSAGE value="Updated to latest version of GPS repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to latest version of GPS repository" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Deployment" timestamp="1603485232586">
@@ -359,45 +468,45 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="772" y="404" key="Github.ShareDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603484207681" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1604078039974">
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1604099550458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039974" />
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604099550458" />
     <state width="1034" height="250" key="GridCell.Tab.0.bottom/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1604078039973">
+    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1604099550458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039973" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604099550458" />
     <state width="1034" height="250" key="GridCell.Tab.0.center/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1604078039973">
+    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1604099550458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039973" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604099550458" />
     <state width="1034" height="250" key="GridCell.Tab.0.left/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1604078039973">
+    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1604099550458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039973" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604099550458" />
     <state width="1034" height="250" key="GridCell.Tab.0.right/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603637812981" />
-    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1604078039856">
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1604099550458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039856" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604099550458" />
     <state width="1063" height="343" key="GridCell.Tab.1.bottom/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1604078039856">
+    <state width="1877" height="351" key="GridCell.Tab.1.center" timestamp="1604099550458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039856" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604099550458" />
     <state width="1063" height="343" key="GridCell.Tab.1.center/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1604078039856">
+    <state width="1877" height="351" key="GridCell.Tab.1.left" timestamp="1604099550458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039856" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604099550458" />
     <state width="1063" height="343" key="GridCell.Tab.1.left/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
-    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1604078039856">
+    <state width="1877" height="351" key="GridCell.Tab.1.right" timestamp="1604099550458">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.1.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078039856" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604099550458" />
     <state width="1063" height="343" key="GridCell.Tab.1.right/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603555603553" />
     <state x="777" y="227" key="RollbackChangesDialog" timestamp="1603486872053">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -407,15 +516,15 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="807" y="438" key="VCS.ChangelistChooser/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603486718305" />
-    <state x="2184" y="68" key="Vcs.Push.Dialog.v2" timestamp="1603636155154">
-      <screen x="1920" y="-371" width="1080" height="1890" />
-    </state>
-    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1603545606760" />
-    <state x="2184" y="68" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603636155154" />
-    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604077739085">
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2" timestamp="1604078380534">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604077739085" />
+    <state x="552" y="244" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078380534" />
+    <state x="2184" y="68" key="Vcs.Push.Dialog.v2/1920.-371.1080.1890/0.0.1920.1050@1920.-371.1080.1890" timestamp="1603636155154" />
+    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604078373554">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="758" y="416" key="git4idea.remote.GitConfigureRemotesDialog/1920.-371.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1604078373554" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1603486115278">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

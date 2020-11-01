@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['restingtime_88',['restingTime',['../class_g_p_s_1_1_track.html#a217be93f2a114bc89fcd72ed7686ce2e',1,'GPS::Track']]],
-  ['route_89',['Route',['../class_g_p_s_1_1_route.html#ae427e2de4dae8a08cf3218f618ec1249',1,'GPS::Route::Route(std::string source, bool isFileName, metres granularity=20)'],['../class_g_p_s_1_1_route.html#a5056ba87eb9e9749b3e4c332f60e14d3',1,'GPS::Route::Route()']]]
+  ['latitude_161',['latitude',['../class_g_p_s_1_1_position.html#a9dc9cf7d516c93a1191fbdc25dd4941c',1,'GPS::Position']]],
+  ['latitudesubtendedby_162',['latitudeSubtendedBy',['../namespace_g_p_s_1_1_earth.html#ae707d6ebb30deca6a3034fa6ea9a28b8',1,'GPS::Earth']]],
+  ['longestrest_163',['longestRest',['../class_g_p_s_1_1_track.html#a1404664fd6cfdabf1f9c22ad49a9c33c',1,'GPS::Track']]],
+  ['longitude_164',['longitude',['../class_g_p_s_1_1_position.html#a7b20a8aa554ee9df4ae5c5868d12c976',1,'GPS::Position']]],
+  ['longitudesubtendedby_165',['longitudeSubtendedBy',['../namespace_g_p_s_1_1_earth.html#ad83f761f00e814245790b1fbf93e3cf6',1,'GPS::Earth']]]
 ];

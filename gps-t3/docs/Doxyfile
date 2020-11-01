@@ -831,10 +831,7 @@ WARN_LOGFILE           =
 
 INPUT                  = ../headers \
                          ../src \
-                         ../../gps-analysing_routes/src \
-                         ../../gps-analysing_routes/headers \
-                         ../src/gpx-tests/timesVisited(string).cpp \
-                         ../../gps-analysing_routes/src/route.cpp
+                         ../src/gpx-tests/timesVisited(string).cpp
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
