@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_5b_5d_87',['operator[]',['../class_g_p_s_1_1_route.html#aa19be8797b7175681ccc072b4a967679',1,'GPS::Route']]]
+  ['iswellformedsentence_160',['isWellFormedSentence',['../namespace_n_m_e_a.html#ac06cb138012fba100dd743c218ccf6a4',1,'NMEA']]]
 ];

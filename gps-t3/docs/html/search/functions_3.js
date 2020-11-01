@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['findnameof_68',['findNameOf',['../class_g_p_s_1_1_route.html#adbf91086d7c712750e992a8b6b39dde4',1,'GPS::Route']]],
-  ['findposition_69',['findPosition',['../class_g_p_s_1_1_route.html#a06900233fd7b55805de91153f23a5284',1,'GPS::Route']]]
+  ['ddmtodd_152',['ddmTodd',['../namespace_g_p_s.html#a06213d460848a821d5e9db77aa0e6140',1,'GPS']]],
+  ['degtorad_153',['degToRad',['../namespace_g_p_s.html#a9a64d7e5bf358bd96276fd2cc1a05a48',1,'GPS']]],
+  ['distancebetween_154',['distanceBetween',['../class_g_p_s_1_1_position.html#a3df9ce99bccb9927d3088968e8db6a6a',1,'GPS::Position']]]
 ];

@@ -4,7 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="GPS::Route",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_p_s_1_1_route.html",tooltip=" "];
-  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 [label="GPS::Track",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_p_s_1_1_track.html",tooltip=" "];
+  Node0 [label="boost::test_tools::\ltt_detail::print_log\l_value\< std::vector\<\l std::string \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structboost_1_1test__tools_1_1tt__detail_1_1print__log__value_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html",tooltip=" "];
 }

@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['testroute_92',['testRoute',['../main_8cpp.html#a1a31e6fbdc8fb621d932349b377326f4',1,'main.cpp']]],
-  ['testtrack_93',['testTrack',['../main_8cpp.html#a41a3811b5d62d0a13976e4ebc3a2c501',1,'main.cpp']]],
-  ['timesvisited_94',['timesVisited',['../class_g_p_s_1_1_route.html#aa4c247fd253b1d8236f1b51f803db2c0',1,'GPS::Route::timesVisited(std::string soughtName) const'],['../class_g_p_s_1_1_route.html#a067010d0470b82d192ddb02904e57050',1,'GPS::Route::timesVisited(Position) const']]],
-  ['totalheightgain_95',['totalHeightGain',['../class_g_p_s_1_1_route.html#a2eda3d464cb942aed700ddf88b8b776d',1,'GPS::Route']]],
-  ['totallength_96',['totalLength',['../class_g_p_s_1_1_route.html#a9ac6e88042df83feb6bf195c73bb2edf',1,'GPS::Route']]],
-  ['totaltime_97',['totalTime',['../class_g_p_s_1_1_track.html#ac8f477ef35ad2e02590362358dc0ea70',1,'GPS::Track']]],
-  ['track_98',['Track',['../class_g_p_s_1_1_track.html#a8bbe0a4213eb4baa68d6181889972ff5',1,'GPS::Track']]],
-  ['travellingtime_99',['travellingTime',['../class_g_p_s_1_1_track.html#a17fef53475b7f3feef71bdd742621c2b',1,'GPS::Track']]]
+  ['name_177',['name',['../class_g_p_s_1_1_route.html#a3e227db3649c35b3abe03ef883783046',1,'GPS::Route']]],
+  ['netheightgain_178',['netHeightGain',['../class_g_p_s_1_1_route.html#a906c64f9e0929f8c2e7f42a30d51fb15',1,'GPS::Route']]],
+  ['netlength_179',['netLength',['../class_g_p_s_1_1_route.html#a6e0aee6a7bd51d922dbec7e37ff7788e',1,'GPS::Route']]],
+  ['normalisedeg_180',['normaliseDeg',['../namespace_g_p_s.html#ac0f9d31f76f3c12e0323d830c502d0e6',1,'GPS']]],
+  ['numpositions_181',['numPositions',['../class_g_p_s_1_1_route.html#a36331a555f396d2a888c7f0b4867e799',1,'GPS::Route']]]
 ];
